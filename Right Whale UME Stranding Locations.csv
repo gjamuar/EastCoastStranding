@@ -1,0 +1,37 @@
+﻿Date,Year,Month,Latitude,Longitude,Common Name,Sex,Carcass Condition,Country,State/Province,Animal ID
+6/7/2017,2017,Jun,47.3204,-63.8597,North Atlantic Right,Male,Moderate,Canada,New Brunswick,#3746
+6/19/2017,2017,Jun,47.4423,-63.582,North Atlantic Right,Male,Moderate,Canada,New Brunswick,#1402
+6/18/2017,2017,Jun,47.7431,-63.3609,North Atlantic Right,Male,Advanced,Canada,New Brunswick,#3190
+6/21/2017,2017,Jun,48.2335,-63.04506,North Atlantic Right,Female,Fresh,Canada,Quebec,#3603
+6/22/2017,2017,Jun,47.1501,-62.4634,North Atlantic Right,Female,Moderate,Canada,Prince Edward Island, #3512
+6/23/2017,2017,Jun,47.61545,-63.22338,North Atlantic Right,Male,Moderate,Canada,New Brunswick,#1207
+7/6/2017,2017,Jul,47.5832,-62.6267,North Atlantic Right,Male,Advanced,Canada,Quebec,Unknown
+7/19/2017,2017,Jul,47.91702,-63.90859,North Atlantic Right,Male,Fresh,Canada,New Brunswick,#2140
+7/21/2017,2017,Jul,49.3485,-58.235,North Atlantic Right,Male,Advanced,Canada,Newfoundland,#2630
+7/27/2017,2017,Jul,47.6206,-59.298,North Atlantic Right,Female,Advanced,Canada,Newfoundland,Unknown
+7/30/2017,2017,Jul,50.4263,-57.499,North Atlantic Right,Female,Advanced,Canada,Newfoundland,#1911
+9/15/2017,2017,Sep,48.1503,-63.5009,North Atlantic Right,Female,Moderate,Canada,Quebec,#4504
+6/4/2019,2019,Jun,48.25,-63.1383,North Atlantic Right,Male,Moderate,Canada,Quebec,#4023
+6/20/2019,2019,Jun,47.6139,-60.7675,North Atlantic Right,Female,Moderate,Canada,Quebec,#1281
+6/25/2019,2019,Jun,47.8346,-64.0524,North Atlantic Right,Male,Moderate,Canada,New Brunswick,#1514
+6/25/2019,2019,Jun,47.5475,-62.56,North Atlantic Right,Female,Advanced,Canada,Quebec,#3815
+6/26/2019,2019,Jun,49.0777,-61.7912,North Atlantic Right,Female,Moderate,Canada,Quebec,#3329
+6/27/2019,2019,Jun,48.3493,-63.1655,North Atlantic Right,Female,Moderate,Canada,Quebec,#3450
+6/24/2019,2019,Jun,46.325,-59.875,North Atlantic Right,Unknown,Moderate,Canada,Nova Scotia,Unknown
+7/18/2019,2019,Jul,48.164,-62.7512,North Atlantic Right,Male,Advanced,Canada,Quebec,#3421
+7/21/2019,2019,Jul,45.6881,-59.9561,North Atlantic Right,Unknown,Advanced,Canada,Nova Scotia,Unknown
+4/13/2017,2017,Apr,41.750832,-70.2525,North Atlantic Right,Female,Fresh,USA,MA,#4694
+8/6/2017,2017,Aug,41.35051,-70.5479,North Atlantic Right,Male,Advanced,USA,MA,Unknown
+8/9/2017,2017,Aug,41.70444,-67.11944,North Atlantic Right,Female,Advanced,USA,MA,#2123
+10/23/2017,2017,Oct,41.45,-70.855,North Atlantic Right,Male,Advanced,USA,MA,Unknown
+11/26/2017,2017,Nov,41.2902773733,-70.4497222,North Atlantic Right,Unknown,Advanced,USA,MA,#2611
+1/22/2018,2018,Jan,36.703167,-74.849983,North Atlantic Right,Female,Moderate,USA,VA,#3893
+8/27/2018,2018,Aug,41.3669444,-70.4338889,North Atlantic Right,Male,Moderate,USA,MA,Unknown
+10/14/2018,2018,Oct,41.3911111,-67.035,North Atlantic Right,Unknown,Moderate,USA,MA,Pending
+9/16/2019,2019,Sep,40.509444,-73.447556,North Atlantic Right,Male,Moderate,USA,NY,#1226
+6/25/2020,2020,Jun,40.260611,-73.899639,North Atlantic Right,Male,Moderate,USA,NJ,Calf of #3560
+11/20/2020,2020,Nov,34.95989,-76.17969,North Atlantic Right,Male,Moderate,USA,NC,Unknown
+2/13/2021,2021,Feb,29.880583,-81.272361,North Atlantic Right,Male,Fresh,USA,FL,Calf of #3230
+2/27/2021,2021,Feb,33.536933,-78.704,North Atlantic Right,Male,Moderate,USA,SC,#3920
+1/7/2023,2023,Jan,34.715213,-76.703152,North Atlantic Right,Male,Moderate,USA,NC,Unknown
+2/12/2023,2023,Feb,36.914275,-76.115122,North Atlantic Right,Male,Moderate,USA,VA,#3343
