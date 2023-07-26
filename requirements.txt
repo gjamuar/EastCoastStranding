@@ -1,10 +1,13 @@
 plotly
 pandas
-arcgis
+# arcgis
 pyproj
 requests
-dataprep
+# dataprep
 lat_lon_parser
 geopandas
 # basemap
 pygeohash
+pyarrow
+fastparquet
+ipython

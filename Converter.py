@@ -1,19 +1,19 @@
 import pyproj
-from arcgis import geometry
+# from arcgis import geometry
 
 
 def convert_arcgis_to_latlon(x, y, spatial_reference):
     # Create a point geometry object using the ArcGIS coordinates
-    point = geometry.Point({"x": x, "y": y, "spatialReference": spatial_reference})
+    # point = geometry.Point({"x": x, "y": y, "spatialReference": spatial_reference})
 
     # Convert the point geometry to latitude and longitude
     # geographic_point = geometry.project([point], spatial_reference=4326, in_sr=spatial_reference)
-    geographic_point = geometry.project([point], in_sr=spatial_reference, out_sr=4326)
+    # geographic_point = geometry.project([point], in_sr=spatial_reference, out_sr=4326)
 
 
     # Extract the latitude and longitude values from the converted point
-    latitude = geographic_point[0]["y"]
-    longitude = geographic_point[0]["x"]
+    # latitude = geographic_point[0]["y"]
+    # longitude = geographic_point[0]["x"]
 
     return latitude, longitude
 

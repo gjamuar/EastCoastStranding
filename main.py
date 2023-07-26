@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import requests
 import datetime as dt
-from dataprep.clean import clean_lat_long, validate_lat_long
+# from dataprep.clean import clean_lat_long, validate_lat_long
 from lat_lon_parser import parse
 import re
 import geopandas as gpd
