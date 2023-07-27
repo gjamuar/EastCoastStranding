@@ -1,13 +1,16 @@
-plotly
-pandas
+plotly~=5.15.0
+pandas~=2.0.3
 # arcgis
-pyproj
-requests
+pyproj~=3.6.0
+requests~=2.31.0
 # dataprep
-lat_lon_parser
-geopandas
+lat_lon_parser~=1.3.0
+geopandas~=0.13.2
 # basemap
-pygeohash
+pygeohash~=1.2.0
 pyarrow
 fastparquet
 ipython
+numpy~=1.25.1
+shapely~=2.0.1
+python-dateutil~=2.8.2
