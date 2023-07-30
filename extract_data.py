@@ -87,26 +87,24 @@ def download_files(start_year, start_month, start_day, end_year, end_month, end_
 def download_data(filedate):
     url = filedate.strftime('https://coast.noaa.gov/htdata/CMSP/AISDataHandler/%Y/AIS_%Y_%m_%d.zip')
     logging.debug(f'downloading {url}')
-    filename = download_file(url)
-    logging.debug(f'extracting {filename}')
-    with zipfile.ZipFile(filename) as zf:
-        zf.extractall(CSV_PATH)
-    csv_file = CSV_PATH + filename.split('/')[-1].split('.')[0] + '.csv'
-    extract_and_push(csv_file)
-    clear_files([csv_file, filename])
+    try:
+        filename = download_file(url)
+        logging.debug(f'extracting {filename}')
+        with zipfile.ZipFile(filename) as zf:
+            zf.extractall(CSV_PATH)
+        csv_file = CSV_PATH + filename.split('/')[-1].split('.')[0] + '.csv'
+        extract_and_push(csv_file)
+        clear_files([csv_file, filename])
+    except:
+        logging.exception(f'error for {filedate}')
 
 
 def download_file(url):
     local_filename = DOWNLOAD_PATH + url.split('/')[-1]
-    # NOTE the stream=True parameter below
     with requests.get(url, stream=True) as r:
         r.raise_for_status()
         with open(local_filename, 'wb') as f:
             for chunk in r.iter_content(chunk_size=8192 * 1000):
-                # If you have chunk encoded response uncomment if
-                # and set chunk_size parameter to None.
-                # if chunk:
-                # print('.', end="")
                 f.write(chunk)
     return local_filename
 
@@ -114,5 +112,5 @@ def download_file(url):
 if __name__ == "__main__":
     # main()
     # download_files(2022, 1, 1, 2023, 3, 28)
-    download_files(2021, 1, 1, 2021, 12, 31)
+    download_files(2020, 1, 1, 2020, 1, 31)
     # process_files()
