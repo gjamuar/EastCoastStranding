@@ -86,7 +86,7 @@ def parse_arg():
     return vars(parser.parse_args())
 
 def read_whale_data(whale_start_date, whale_end_date):
-    df_whales = load_from_file('whales.parquet')
+    df_whales = load_from_file('merged_whales.parquet')
     df_whales['Year'] = pd.to_datetime(df_whales['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime(
         '%Y-%m-%d')  
     df_whales.sort_values(by=['Year'], ascending=True, na_position='first', inplace=True)
