@@ -29,5 +29,5 @@ options:
   -ve VESSEL_EDATE, --vessel_edate VESSEL_EDATE
                         End date for vessel traffic time window in YYYY-MM-DD format
 
-$ python vessels.py -ws 2022-12-01 -we 2023-03-28 -vs 2023-12-01 -ve 2023-03-28
+$ python vessels.py -ws 2022-12-01 -we 2023-03-28 -vs 2022-12-01 -ve 2023-03-28
 ```
