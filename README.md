@@ -1,3 +1,11 @@
+## Setup environment
+
+```shell
+conda create --name eastcoaststranding python=3.10.12
+conda activate eastcoaststranding
+pip install -r requirements.txt
+```
+
 ## How to run 
 
 ```shell
