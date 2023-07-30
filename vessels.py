@@ -7,6 +7,7 @@ from datetime import datetime
 import pandas as pd
 import pygeohash as gh
 import plotly.express as px
+import argparse
 
 from main import load_from_file
 
@@ -39,14 +40,13 @@ def read_vessel_files(sdate, edate):
     # Create an empty dataframe to hold our combined data
     merged_df = pd.DataFrame()
     date_range = pd.date_range(sdate, edate, freq='d')
-    print(date_range)
+    # print(date_range)
 
     filenames = [d.strftime('data/parquet/AIS_%Y_%m_%d.parquet') for d in date_range]
 
-    print(filenames)
+    # print(filenames)
 
-    # Iterate over all of the files in the provided directory and
-    # configure if we want to recursively search the directory
+    # Iterate over all of the files 
     for filename in filenames:
 
         # Check if the file is actually a file (not a directory) and make sure it is a parquet file
@@ -69,8 +69,66 @@ def read_vessel_files(sdate, edate):
     return merged_df
 
 
+def parse_arg():
+    arg_desc = '''\
+            Stranded whales and Vessels Traffic data on Map!
+        ---------------------------------------------------------
+        This program displays Stranded whales and Vessels Traffic
+        in north-east coast during selected time window.
+        '''
+    parser = argparse.ArgumentParser(formatter_class = argparse.RawDescriptionHelpFormatter,
+                                        description= arg_desc)
+    
+    parser.add_argument("-ws", "--whale_sdate", help = "Start date for stranded whale time window in YYYY-MM-DD format")
+    parser.add_argument("-we", "--whale_edate", help = "End date for stranded whale time window in YYYY-MM-DD format")
+    parser.add_argument("-vs", "--vessel_sdate", help = "Start date for vessel traffic time window in YYYY-MM-DD format")
+    parser.add_argument("-ve", "--vessel_edate", help = "End date for vessel traffic time window in YYYY-MM-DD format")
+    return vars(parser.parse_args())
+
+def read_whale_data(whale_start_date, whale_end_date):
+    df_whales = load_from_file('whales.parquet')
+    df_whales['Year'] = pd.to_datetime(df_whales['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime(
+        '%Y-%m-%d')  
+    df_whales.sort_values(by=['Year'], ascending=True, na_position='first', inplace=True)
+
+    df_whales_window: pd.DataFrame = df_whales.loc[df_whales["Year"].between(whale_start_date, whale_end_date)]
+    print(f'df_whales_window shape: {df_whales_window.shape}')
+    print(df_whales_window)
+    return df_whales_window
+
+
+def read_traffic_data(vessel_start_date, vessel_end_date):
+    sdate = datetime.strptime(vessel_start_date, "%Y-%m-%d")
+    edate = datetime.strptime(vessel_end_date, "%Y-%m-%d")
+    vessel_df = read_vessel_files(sdate, edate)
+
+    print(f'merged dataframe {vessel_df.shape}')
+    vessel_df["Date"] = pd.to_datetime(vessel_df["BaseDateTime"]).dt.strftime('%Y-%m-%d')
+
+    print(vessel_df)
+
+    df_vessel_window: pd.DataFrame = vessel_df.loc[vessel_df["Date"].between(vessel_start_date, vessel_end_date)]
+    print(f'df_vessel_window {df_vessel_window.shape}')
+    return df_vessel_window
+
 if __name__ == '__main__':
-    # Create your connection.
+
+    args = parse_arg()
+    print(args)
+
+    vessel_start_date = args['vessel_sdate']
+    vessel_end_date = args['vessel_edate']
+    whale_start_date = args['whale_sdate']
+    whale_end_date = args['whale_edate']
+
+    df_whales_window = read_whale_data(whale_start_date, whale_end_date)
+
+    df_vessel_window = read_traffic_data(vessel_start_date, vessel_end_date)
+
+    map_vessels(df_vessel_window, df_whales_window)
+
+
+ # Create your connection.
 
     # cnx = sqlite3.connect('aisdata_new.db')
     #
@@ -89,41 +147,11 @@ if __name__ == '__main__':
     #
     # df.to_parquet('vessels.parquet')
 
-    vessel_start_date = '2023-01-01'
-    vessel_end_date = '2023-03-28'
-    # sdate = date(2019, 3, 22)  # start date
-    # edate = date(2019, 4, 9)
-    sdate = datetime.strptime(vessel_start_date, "%Y-%m-%d")
-    edate = datetime.strptime(vessel_end_date, "%Y-%m-%d")
-    vessel_df = read_vessel_files(sdate, edate)
-
-    print(f'merged dataframe {vessel_df.shape}')
-    vessel_df["Date"] = pd.to_datetime(vessel_df["BaseDateTime"]).dt.strftime('%Y-%m-%d')
-
-    print(vessel_df)
-
-    df_vessel_window: pd.DataFrame = vessel_df.loc[vessel_df["Date"].between("2023-03-01", "2023-03-15")]
-    print(f'df_vessel_window {df_vessel_window.shape}')
-
-
     # df = pd.read_parquet('vessels.parquet')
 
     # df["Year"] = pd.to_datetime(df["datetime"]).dt.strftime('%Y-%m-%d')
-    df_whales = load_from_file('whales.parquet')
-    df_whales['Year'] = pd.to_datetime(df_whales['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime(
-        '%Y-%m-%d')  # dt.strftime('%Y%m%d')
-    # df['Year'] = df['Year'].apply(pd.to_datetime(yearfirst=True))
-    # df['Year'] = df['Year'].apply(np.int64)
-    df_whales.sort_values(by=['Year'], ascending=True, na_position='first', inplace=True)
-    # df.sort_values(by=['Year'], ascending=True, na_position='first', inplace=True)
-
-    # df_vessels: pd.DataFrame = df.loc[df["Year"].between("2023-03-01", "2023-03-15")]
-    # print(df_vessels.shape)
-
-    df_whales_window: pd.DataFrame = df_whales.loc[df_whales["Year"].between("2020-01-01", "2020-12-15")]
-    print(df_whales_window.shape)
-
-    map_vessels(df_vessel_window, df_whales_window)
+    
+    
 
     # # df2 = df.groupby(['date', 'geohash8'])['geohash8'].count().sort_values(ascending=False)
     # # Group the DataFrame by team and position
