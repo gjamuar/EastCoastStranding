@@ -87,11 +87,11 @@ def parse_arg():
 
 def read_whale_data(whale_start_date, whale_end_date):
     df_whales = load_from_file('merged_whales.parquet')
-    df_whales['Year'] = pd.to_datetime(df_whales['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime(
+    df_whales['Year_new'] = pd.to_datetime(df_whales['Year'], yearfirst=True, format='%Y%m%d').dt.strftime(
         '%Y-%m-%d')  
-    df_whales.sort_values(by=['Year'], ascending=True, na_position='first', inplace=True)
+    # df_whales.sort_values(by=['Year_new'], ascending=True, na_position='first', inplace=True)
 
-    df_whales_window: pd.DataFrame = df_whales.loc[df_whales["Year"].between(whale_start_date, whale_end_date)]
+    df_whales_window: pd.DataFrame = df_whales.loc[df_whales["Year_new"].between(whale_start_date, whale_end_date)]
     print(f'df_whales_window shape: {df_whales_window.shape}')
     print(df_whales_window)
     return df_whales_window
