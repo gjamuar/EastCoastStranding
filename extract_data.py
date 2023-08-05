@@ -62,6 +62,21 @@ def process_files(date_list):
         pool.join()
 
 
+def file_exits(filedate, filetype='parquet'):
+    filename = filedate.strftime("AIS_%Y_%m_%d")
+
+    if filetype == 'csv':
+        filepath = CSV_PATH + filename + '.csv'
+    elif filetype == 'parquet':
+        filepath = PARQUET_PATH + filename + '.parquet'
+    else:
+        return False
+    if os.path.isfile(filepath):
+        logging.debug(f'skipping date, {filename} exits')
+        return True
+    return False
+
+
 def clear_files(file_list):
     for file in file_list:
         if os.path.exists(file):
@@ -78,7 +93,8 @@ def download_files(start_year, start_month, start_day, end_year, end_month, end_
     # iterating over the dates
     for d in rrule(DAILY, dtstart=start_date, until=end_date):
         logging.debug(d.strftime("%Y-%m-%d"))
-        date_list.append(d)
+        if not file_exits(d, filetype='parquet'):
+            date_list.append(d)
         # download_data(d)
 
     process_files(date_list)
@@ -87,14 +103,20 @@ def download_files(start_year, start_month, start_day, end_year, end_month, end_
 def download_data(filedate):
     url = filedate.strftime('https://coast.noaa.gov/htdata/CMSP/AISDataHandler/%Y/AIS_%Y_%m_%d.zip')
     logging.debug(f'downloading {url}')
+    file_list = []
     try:
-        filename = download_file(url)
-        logging.debug(f'extracting {filename}')
-        with zipfile.ZipFile(filename) as zf:
-            zf.extractall(CSV_PATH)
-        csv_file = CSV_PATH + filename.split('/')[-1].split('.')[0] + '.csv'
+        if not file_exits(filedate, filetype='csv'):
+            filename = download_file(url)
+            file_list.append(filename)
+            logging.debug(f'extracting {filename}')
+            with zipfile.ZipFile(filename) as zf:
+                zf.extractall(CSV_PATH)
+
+        csv_filename = filedate.strftime("AIS_%Y_%m_%d")
+        csv_file = CSV_PATH + csv_filename + '.csv'
         extract_and_push(csv_file)
-        clear_files([csv_file, filename])
+        file_list.append(csv_file)
+        clear_files(file_list)
     except:
         logging.exception(f'error for {filedate}')
 
