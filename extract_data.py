@@ -12,13 +12,16 @@ import database as db
 import utils
 from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH
 
-logging.basicConfig(filename='app.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s',
-                    level=logging.DEBUG)
+logging.basicConfig(filename='app.log',
+                    filemode='w',
+                    format='%(asctime)s - %(levelname)s-8s %(name)s  - %(message)s',
+                    level=logging.DEBUG,
+                    datefmt='%Y-%m-%d %H:%M:%S')
 
 
 def extract_and_push(file):
     logging.debug(f"processing file {file}")
-    df = pd.read_csv(file)
+    df = pd.read_csv(file, skip_blank_lines=True, on_bad_lines='skip', low_memory=False)
     east_coast_df = df[(df['LAT'] >= 36.5) & (df['LAT'] <= 46.0) &
                        (df['LON'] >= -87.0) & (df['LON'] <= -65.0)]
     qr = east_coast_df[(east_coast_df['Status'] == 3)]
@@ -72,7 +75,7 @@ def file_exits(filedate, filetype='parquet'):
     else:
         return False
     if os.path.isfile(filepath):
-        logging.debug(f'skipping date, {filename} exits')
+        logging.debug(f'skipping file, {filename}.{filetype} exits ')
         return True
     return False
 
@@ -134,5 +137,5 @@ def download_file(url):
 if __name__ == "__main__":
     # main()
     # download_files(2022, 1, 1, 2023, 3, 28)
-    download_files(2020, 1, 1, 2020, 1, 31)
+    download_files(2021, 1, 1, 2021, 12, 31)
     # process_files()
