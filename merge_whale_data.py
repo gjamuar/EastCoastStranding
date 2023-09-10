@@ -33,13 +33,16 @@ def merge_whale_data():
     #       dtype='object')
     #
 
-    df_2.rename(columns={'Common Name': 'ComName', 'Latitude': 'lat', 'Longitude': 'lon', 'ObjectID': 'OBJECTID',
+    # df_2.rename(columns={'Common Name': 'ComName', 'Latitude': 'lat', 'Longitude': 'lon', 'ObjectID': 'OBJECTID',
+    #                      'Obs Date': 'ObsDay', 'State/Province': 'State', }, inplace=True)
+
+    df_2.rename(columns={'Common Name': 'ComName', 'Latitude': 'lat', 'Longitude': 'lon',
                          'Obs Date': 'ObsDay', 'State/Province': 'State', }, inplace=True)
 
     # After renaming the columns
     print("\nAfter modifying column:\n", df_2.columns.sort_values())
-    df_2['Year'] = pd.to_datetime(df_2['ObsDay'], yearfirst=True, format='%B %d, %Y').dt.strftime('%Y%m%d')
-    df_2['Date'] = pd.to_datetime(df_2['ObsDay'], yearfirst=True, format='%B %d, %Y').dt.strftime('%Y-%b-%d')
+    df_2['Year'] = pd.to_datetime(df_2['ObsDay'], yearfirst=True, format='%m/%d/%Y').dt.strftime('%Y%m%d')
+    df_2['Date'] = pd.to_datetime(df_2['ObsDay'], yearfirst=True, format='%m/%d/%Y').dt.strftime('%Y-%b-%d')
     print(df_2.head())
 
     df['County'] = df['County'].str.split("(").str[0].str.strip().str.lower()
@@ -72,7 +75,8 @@ def merge_whale_data():
 
     rslt_df = outer_merged[(abs(outer_merged['Lat_diff']) < 0.0001) & abs((outer_merged['Lon_diff'] < 0.0001))]
 
-    print('\nResult dataframe :\n', rslt_df[['lat_x', 'lat_y', 'lon_x', 'lon_y', 'Year', 'County', 'State','Year']].to_string())
+    print('\nResult dataframe :\n',
+          rslt_df[['lat_x', 'lat_y', 'lon_x', 'lon_y', 'Year', 'County', 'State', 'Year']].to_string())
     print('\nResult dataframe :\n', rslt_df['Field Number'].values)
 
     df_removed_dup = df_2[~df_2['Field Number'].isin(rslt_df['Field Number'].values)]
@@ -81,18 +85,66 @@ def merge_whale_data():
     print(df_removed_dup.to_string())
 
     merged_df = pd.concat([df, df_removed_dup[['Carcass Condition', 'ComName', 'Country', 'County', 'Field Number',
-       'Month', 'OBJECTID', 'Sex', 'State', 'Year', 'lat', 'lon']]], ignore_index=True)
+                                               'Month', 'Sex', 'State', 'Year', 'lat', 'lon']]], ignore_index=True)
     merged_df.to_parquet('merged_whales.parquet')
     merged_df.to_csv('merged_whales.csv')
-    
 
 
+def merge_minke_whales():
+    df = load_from_file('merged_whales.parquet')
+
+    df_2 = pd.read_csv('Minke Whale Unusual Mortality Event.csv')
+    print(df.head(50).to_string())
+    print(df_2.head())
+
+    print(df.columns.sort_values())
+    print(df_2.columns.sort_values())
+    df_2.rename(columns={'Common Name': 'ComName', 'Latitude': 'lat', 'Longitude': 'lon',
+                         'Obs Date': 'ObsDay', 'State/Province': 'State', }, inplace=True)
+
+    print("\nAfter modifying column:\n", df_2.columns.sort_values())
+    df_2['Year'] = pd.to_datetime(df_2['ObsDay'], yearfirst=True, format='%m/%d/%Y').dt.strftime('%Y%m%d')
+    df_2['Date'] = pd.to_datetime(df_2['ObsDay'], yearfirst=True, format='%m/%d/%Y').dt.strftime('%Y-%b-%d')
+    print(df_2.head())
+
+    df_2['County'] = df_2['County'].str.strip().str.lower()
+
+    print(df_2['County'].values)
+
+    merged_df = pd.concat([df, df_2[['Carcass Condition', 'ComName', 'Country', 'County', 'Field Number',
+                                               'Month', 'Sex', 'State', 'Year', 'lat', 'lon']]], ignore_index=True)
+    merged_df.to_parquet('merged_whales_minke.parquet')
+    merged_df.to_csv('merged_whales_minke.csv')
 
 
+def merge_right_whales():
+    df = load_from_file('merged_whales_minke.parquet')
+
+    df_2 = pd.read_csv('Right Whale UME Stranding Locations.csv')
+    print(df.head(50).to_string())
+    print(df_2.head())
+
+    print(df.columns.sort_values())
+    print(df_2.columns.sort_values())
+    df_2.rename(columns={'Common Name': 'ComName', 'Latitude': 'lat', 'Longitude': 'lon',
+                         'Obs Date': 'ObsDay', 'State/Province': 'State', 'Animal ID': 'Field Number'}, inplace=True)
+
+    print("\nAfter modifying column:\n", df_2.columns.sort_values())
+    df_2['Year'] = pd.to_datetime(df_2['ObsDay'], yearfirst=True, format='%m/%d/%Y').dt.strftime('%Y%m%d')
+    df_2['Date'] = pd.to_datetime(df_2['ObsDay'], yearfirst=True, format='%m/%d/%Y').dt.strftime('%Y-%b-%d')
+    print(df_2.head())
+
+    merged_df = pd.concat([df, df_2[['Carcass Condition', 'ComName', 'Country', 'Field Number',
+                                               'Month', 'Sex', 'State', 'Year', 'lat', 'lon']]], ignore_index=True)
+    print(merged_df.tail(50).to_string())
+    merged_df.to_parquet('merged_whales_minke_right.parquet')
+    merged_df.to_csv('merged_whales_minke_right.csv')
 
 
 if __name__ == '__main__':
-    merge_whale_data()
+    merge_right_whales()
+    # merge_minke_whales()
+    # merge_whale_data()
 
 # Result dataframe :
 #  ['VAQS20161004' 'SYMn1610' 'NEAQ-16-023-Mn' 'NY5460-2016' 'NY5481-2016'

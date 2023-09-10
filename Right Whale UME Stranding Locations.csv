@@ -1,4 +1,4 @@
-﻿Date,Year,Month,Latitude,Longitude,Common Name,Sex,Carcass Condition,Country,State/Province,Animal ID
+﻿Obs Date,Year,Month,Latitude,Longitude,Common Name,Sex,Carcass Condition,Country,State/Province,Animal ID
 6/7/2017,2017,Jun,47.3204,-63.8597,North Atlantic Right,Male,Moderate,Canada,New Brunswick,#3746
 6/19/2017,2017,Jun,47.4423,-63.582,North Atlantic Right,Male,Moderate,Canada,New Brunswick,#1402
 6/18/2017,2017,Jun,47.7431,-63.3609,North Atlantic Right,Male,Advanced,Canada,New Brunswick,#3190
@@ -30,8 +30,4 @@
 10/14/2018,2018,Oct,41.3911111,-67.035,North Atlantic Right,Unknown,Moderate,USA,MA,Pending
 9/16/2019,2019,Sep,40.509444,-73.447556,North Atlantic Right,Male,Moderate,USA,NY,#1226
 6/25/2020,2020,Jun,40.260611,-73.899639,North Atlantic Right,Male,Moderate,USA,NJ,Calf of #3560
-11/20/2020,2020,Nov,34.95989,-76.17969,North Atlantic Right,Male,Moderate,USA,NC,Unknown
-2/13/2021,2021,Feb,29.880583,-81.272361,North Atlantic Right,Male,Fresh,USA,FL,Calf of #3230
-2/27/2021,2021,Feb,33.536933,-78.704,North Atlantic Right,Male,Moderate,USA,SC,#3920
-1/7/2023,2023,Jan,34.715213,-76.703152,North Atlantic Right,Male,Moderate,USA,NC,Unknown
 2/12/2023,2023,Feb,36.914275,-76.115122,North Atlantic Right,Male,Moderate,USA,VA,#3343

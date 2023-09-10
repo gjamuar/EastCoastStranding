@@ -451,3 +451,161 @@
 449,,,,,"Whale, humpback",,,suffolk,NY,,,,,,,,,,,40.7450275,-72.8234443,20230811,Moderate Decomposition,USA,AMCS117Mn2023,Aug,Male
 450,,,,,"Whale, humpback",,,monmouth,NJ,,,,,,,,,,,40.2446,-73.9562,20230812,Moderate Decomposition,USA,AMCS119Mn2023_MMSC-23-125,Aug,Male
 451,,,,,"Whale, humpback",,,nassau,NY,,,,,,,,,,,40.571167,-73.740333,20230814,Moderate Decomposition,USA,AMCS120Mn2023,Aug,Male
+452,,,,,"Whale, minke",,,nassau,NY,,,,,,,,,,,40.6116,-73.7549,20170921,Alive,USA,AMCS101Ba2017,SEP,UNK
+453,,,,,"Whale, minke",,,queens,NY,,,,,,,,,,,40.556925,-73.898333,20171210,Fresh,USA,AMCS136Ba2017,DEC,F
+454,,,,,"Whale, minke",,,bronx,NY,,,,,,,,,,,40.8676,-73.7915,20170422,Fresh,USA,AMCS30Ba2017,APR,F
+455,,,,,"Whale, minke",,,richmond,NY,,,,,,,,,,,40.6055,-74.0446,20170423,Advanced Decomposition,USA,AMCS31Ba2017,APR,M
+456,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,40.8411,-72.4877,20170522,Moderate Decomposition,USA,AMCS46Ba2017,MAY,M
+457,,,,,"Whale, minke",,,carteret,NC,,,,,,,,,,,34.62337,-76.55138,20171124,Fresh,USA,CALO1705,NOV,F
+458,,,,,"Whale, minke",,,hancock,ME,,,,,,,,,,,44.258844,-68.393701,20170811,Fresh,USA,COA170812Ba,AUG,F
+459,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.6638,-70.0756,20170420,Moderate Decomposition,USA,IFAW17-196Ba,APR,M
+460,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.6663,-69.9664,20170705,Moderate Decomposition,USA,IFAW17-293Ba,JUL,F
+461,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.889604,-70.004718,20170825,Fresh,USA,IFAW17-341Ba,AUG,F
+462,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.927723,-70.062934,20171002,Fresh,USA,IFAW17-351Ba,OCT,M
+463,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.930154,-70.037398,20171108,Alive,USA,IFAW17-382Ba,NOV,UNK
+464,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.61735,-69.912517,20170827,Fresh,USA,MME-17-229Ba,AUG,M
+465,,,,,"Whale, minke",,,knox,ME,,,,,,,,,,,44.125,-68.99,20171009,Advanced Decomposition,USA,MME-17-266Ba,OCT,F
+466,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.748404,-70.097215,20171024,Moderate Decomposition,USA,MME-17-269Ba,OCT,F
+467,,,,,"Whale, minke",,,atlantic,NJ,,,,,,,,,,,39.4647,-74.32111,20170523,Fresh,USA,MMSC-17-088,MAY,UNK
+468,,,,,"Whale, minke",,,plymouth,MA,,,,,,,,,,,41.90333,-70.415,20170808,Fresh,USA,NEAQ-17-071-Ba,AUG,F
+469,,,,,"Whale, minke",,,plymouth,MA,,,,,,,,,,,41.89333,-70.51,20170707,Fresh,USA,NMFSGAR070817Ba,JUL,F
+470,,,,,"Whale, minke",,,plymouth,NY,,,,,,,,,,,40.7787,-73.8688,20170111,Fresh,USA,NY5564-2017,JAN,F
+471,,,,,"Whale, minke",,,rockingham,NH,,,,,,,,,,,43.0808,-70.8606,20170721,Moderate Decomposition,USA,SSC-17-068Ba,JUL,M
+472,,,,,"Whale, minke",,,rockingham,NH,,,,,,,,,,,43.0065,-70.7416,20170815,Moderate Decomposition,USA,SSC-17-083Ba,AUG,M
+473,,,,,"Whale, minke",,,essex,MA,,,,,,,,,,,42.8473,-70.7706,20170911,Moderate Decomposition,USA,SSC-17-086Ba,SEP,UNK
+474,,,,,"Whale, minke",,,washington,RI,,,,,,,,,,,41.41694,-71.43528,20170813,Moderate Decomposition,USA,SXBa1754,AUG,F
+475,,,,,"Whale, minke",,,newport,RI,,,,,,,,,,,41.3944,-71.4685,20170905,Advanced Decomposition,USA,SYBa1756,SEP,M
+476,,,,,"Whale, minke",,,mathews,VA,,,,,,,,,,,37.31912,-76.28698,20170323,Fresh,USA,VAQS20171017,MAR,F
+477,,,,,"Whale, minke",,,hampton city,VA,,,,,,,,,,,37.10288,-76.28656,20170513,Moderate Decomposition,USA,VAQS20171044,MAY,F
+478,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,41.075317,-71.9418,20171026,Fresh,USA,AMCS120Ba2017,OCT,F
+479,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,40.4378,-71.9128,20180729,Moderate Decomposition,USA,AMCS125Ba2018,JUL,M
+480,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,40.8164,-72.5626,20180804,Advanced Decomposition,USA,AMCS129Ba2018,AUG,UNK
+481,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,40.9588,-72.1496,20180923,Advanced Decomposition,USA,AMCS161Ba2018,SEP,UNK
+482,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,40.9090995,-73.5342622,20181220,Fresh,USA,AMCS236Ba2018,DEC,M
+483,,,,,"Whale, minke",,,carteret,NC,,,,,,,,,,,34.64257,-76.0748,20181222,Fresh,USA,CALO18-20,DEC,F
+484,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.72961,-70.35503,20180213,Moderate Decomposition,USA,IFAW18-014Ba,FEB,M
+485,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.816583,-70.001666,20180313,Moderate Decomposition,USA,IFAW18-033Ba,MAR,F
+486,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.934139,-69.979059,20180623,Moderate Decomposition,USA,IFAW18-135Ba,JUN,M
+487,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.735674,-70.324768,20180826,Moderate Decomposition,USA,IFAW18-242Ba,AUG,M
+488,,,,,"Whale, minke",,,barnstable,Ma,,,,,,,,,,,41.931517,-70.066904,20180927,Fresh,USA,IFAW18-268Ba,SEP,F
+489,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.9251,-70.0713,20181005,Moderate Decomposition,USA,IFAW18-273Ba,OCT,M
+490,,,,,"Whale, minke",,,essex,MA,,,,,,,,,,,42.878333,-70.161944,20181012,Moderate Decomposition,USA,GAR101318Ba,OCT,UNK
+491,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.630142,-70.032272,20180717,Moderate Decomposition,USA,MME-18-168Ba,JUL,M
+492,,,,,"Whale, minke",,,york,ME,,,,,,,,,,,43.2635,-70.183,20180727,Moderate Decomposition,USA,MME-18-217Ba,JUL,M
+493,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.7109,-70.0767,20180921,Fresh,USA,MME-18-860Ba,SEP,F
+494,,,,,"Whale, minke",,,york,ME,,,,,,,,,,,43.471009,-70.38353,20180923,Fresh,USA,MME-18-880Ba,SEP,F
+495,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.71484,-70.00872,20180929,Advanced Decomposition,USA,MME-18-926Ba,SEP,UNK
+496,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.717424,-70.004193,20180928,Moderate Decomposition,USA,MME-18-927Ba,SEP,F
+497,,,,,"Whale, minke",,,monmouth,NJ,,,,,,,,,,,40.30095,-73.97741,20180515,Advanced Decomposition,USA,MMSC-18-117,MAY,UNK
+498,,,,,"Whale, minke",,,monmouth,NJ,,,,,,,,,,,40.450616,-73.875116,20180914,Advanced Decomposition,USA,MMSC-18-178,SEP,M
+499,,,,,"Whale, minke",,,plymouth,MA,,,,,,,,,,,42.2698,-70.8588,20180426,Moderate Decomposition,USA,NEAQ-18-019-Ba,APR,UNK
+500,,,,,"Whale, minke",,,norfolk,MA,,,,,,,,,,,42.283626,-71.019448,20180517,Advanced Decomposition,USA,NEAQ-18-027-Ba,MAY,M
+501,,,,,"Whale, minke",,,plymouth,MA,,,,,,,,,,,43.0964,-70.64763,20180803,Moderate Decomposition,USA,NEAQ-18-048-Ba,AUG,F
+502,,,,,"Whale, minke",,,plymouth,MA,,,,,,,,,,,42.183228,-70.569169,20180929,Moderate Decomposition,USA,NEAQ-18-123-Ba,SEP,UNK
+503,,,,,"Whale, minke",,,essex,MA,,,,,,,,,,,42.535333,-70.606667,20180911,Moderate Decomposition,USA,NMFSGAR091218Ba,SEP,UNK
+504,,,,,"Whale, minke",,,charleston,SC,,,,,,,,,,,32.008267,-79.375437,20180109,Moderate Decomposition,USA,SC1803,JAN,M
+505,,,,,"Whale, minke",,,merrimack,NH,,,,,,,,,,,42.8229,-70.7762,20180802,Moderate Decomposition,USA,SSC-18-099 Ba,AUG,UNK
+506,,,,,"Whale, minke",,,rockingham,NH,,,,,,,,,,,42.9592,-70.7547,20180915,Moderate Decomposition,USA,SSC-18-222 Ba,SEP,M
+507,,,,,"Whale, minke",,,washington,RI,,,,,,,,,,,41.166667,-71.116667,20180922,Advanced Decomposition,USA,SUBa1866,SEP,UNK
+508,,,,,"Whale, minke",,,accomack,VA,,,,,,,,,,,37.832459,-75.996903,20181106,Fresh,USA,VAQS20181104,NOV,F
+509,,,,,"Whale, minke",,,york,ME,,,,,,,,,,,43.3259,-70.40489,20180706,Fresh,USA,MME-18-133Ba,JUL,M
+510,,,,,"Whale, minke",,,york,ME,,,,,,,,,,,43.20285,-70.589589,20180721,Advanced Decomposition,USA,MME-18-191Ba,JUL,UNK
+511,,,,,"Whale, minke",,,monmouth,NJ,,,,,,,,,,,40.61694,-74.04083,20190925,Moderate Decomposition,USA,AMCS188Ba2019,SEP,F
+512,,,,,"Whale, minke",,,queens,NY,,,,,,,,,,,40.54417,-73.77483,20191028,Moderate Decomposition,USA,AMCS200Ba2019,OCT,M
+513,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,41.0114,-72.2478,20191120,Fresh,USA,AMCS213Ba2019,NOV,F
+514,,,,,"Whale, minke",,,richmond,NY,,,,,,,,,,,40.5751,-74.0809,20191219,Fresh,USA,AMCS254Ba2019,DEC,F
+515,,,,,"Whale, minke",,,monmouth,NJ,,,,,,,,,,,40.410803,-73.999547,20190622,Fresh,USA,MMSC-19-129,JUN,M
+516,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.928767,-70.026145,20190326,Fresh,USA,IFAW19-211Ba,MAR,M
+517,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.96377,-70.14023,20190718,Moderate Decomposition,USA,IFAW19-371Ba,JUL,F
+518,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.79251,-70.196015,20190806,Moderate Decomposition,USA,IFAW19-387Ba,AUG,F
+519,,,,,"Whale, minke",,,bristol,MA,,,,,,,,,,,41.593496,-70.842175,20190923,Fresh,USA,IFAW19-426Ba,SEP,M
+520,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.743128,-70.406642,20191009,Moderate Decomposition,USA,IFAW19-434Ba,OCT,F
+521,,,,,"Whale, minke",,,knox,ME,,,,,,,,,,,43.959702,-68.890005,20190827,Moderate Decomposition,USA,MME-19-336Ba,AUG,F
+522,,,,,"Whale, minke",,,knox,ME,,,,,,,,,,,43.913667,-69.285633,20190918,Fresh,USA,MME-19-366Ba,SEP,F
+523,,,,,"Whale, minke",,,ocean,NJ,,,,,,,,,,,39.778222,-74.094389,20190919,Fresh,USA,MMSC-19-163,SEP,M
+524,,,,,"Whale, minke",,,plymouth,MA,,,,,,,,,,,42.053133,-70.651944,20190326,Fresh,USA,NEAQ-19-030-Ba,MAR,F
+525,,,,,"Whale, minke",,,plymouth,MA,,,,,,,,,,,42.316944,-70.916389,20190828,Moderate Decomposition,USA,NEAQ-19-075-Ba,AUG,F
+526,,,,,"Whale, minke",,,plymouth,MA,,,,,,,,,,,42.143913,-70.692783,20190908,Moderate Decomposition,USA,NEAQ-19-079-Ba,SEP,UNK
+527,,,,,"Whale, minke",,,suffolk,MA,,,,,,,,,,,42.384667,-70.428333,20190607,Advanced Decomposition,USA,NMFSGAR06082019Ba,JUN,UNK
+528,,,,,"Whale, minke",,,nantucket,MA,,,,,,,,,,,41.3961,-69.57166,20190702,Fresh,USA,NMFSGAR07032019Ba,JUL,UNK
+529,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.3966,-71.082,20190928,Advanced Decomposition,USA,NMFSGAR092919Ba,SEP,UNK
+530,,,,,"Whale, minke",,,washington,RI,,,,,,,,,,,41.3344,-71.455,20190907,Moderate Decomposition,USA,SUBa19111,SEP,UNK
+531,,,,,"Whale, minke",,,newport,RI,,,,,,,,,,,41.2855,-71.4025,20190909,Advanced Decomposition,USA,SYBa19112,SEP,M
+532,,,,,"Whale, minke",,,virginia beach,VA,,,,,,,,,,,36.8,-75.3,20190423,Moderate Decomposition,USA,VAQS20191037,APR,UNK
+533,,,,,"Whale, minke",,,virginia beach,VA,,,,,,,,,,,36.5572,-75.8691,20191119,Moderate Decomposition,USA,VAQS20191111,NOV,M
+534,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,41.0585015,-71.86978,20201130,Moderate Decomposition,USA,AMCS162Ba2020,DEC,F
+535,,,,,"Whale, minke",,,nassau,NY,,,,,,,,,,,40.8801,-73.5068,20200514,Fresh,USA,AMCS71Ba2020,MAY,M
+536,,,,,"Whale, minke",,,knox,ME,,,,,,,,,,,44.050863,-68.651357,20200803,Moderate Decomposition,USA,COA200804Ba,AUG,M
+537,,,,,"Whale, minke",,,washington,ME,,,,,,,,,,,44.47795,-67.858217,20200807,Advanced Decomposition,USA,COA200808Ba,AUG,UNK
+538,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.585,-69.9583333,20200616,Fresh,USA,IFAW20-114Ba,JUN,UNK
+539,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.861522,-70.066624,20200830,Moderate Decomposition,USA,IFAW20-208Ba,AUG,UNK
+540,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.900111,-70.068861,20200908,Fresh,USA,IFAW20-222Ba,SEP,F
+541,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.755749,-70.166136,20201005,Fresh,USA,IFAW20-238Ba,OCT,M
+542,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.9267,-70.0347,20201202,Fresh,USA,IFAW20-265Ba,DEC,F
+543,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.31076,-70.17163,20200821,Fresh,USA,MME-20-279Ba,AUG,M
+544,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.466951,-70.326917,20200826,Moderate Decomposition,USA,MME-20-287Ba,AUG,UNK
+545,,,,,"Whale, minke",,,ocean,NJ,,,,,,,,,,,39.553189,-74.242401,20200331,Moderate Decomposition,USA,MMSC-20-045,APR,F
+546,,,,,"Whale, minke",,,ocean,NJ,,,,,,,,,,,39.540084,-74.277223,20200415,Moderate Decomposition,USA,MMSC-20-064,APR,UNK
+547,,,,,"Whale, minke",,,ocean,NJ,,,,,,,,,,,39.870762,-74.082771,20200524,Moderate Decomposition,USA,MMSC-20-086,MAY,M
+548,,,,,"Whale, minke",,,monmouth,NJ,,,,,,,,,,,40.160969,-74.018027,20200614,Fresh,USA,MMSC-20-101,JUN,F
+549,,,,,"Whale, minke",,,norfolk,MA,,,,,,,,,,,42.2318,-70.9603,20200424,Moderate Decomposition,USA,NEAQ-20-020-Ba,APR,F
+550,,,,,"Whale, minke",,,norfolk,MA,,,,,,,,,,,42.3,-70.766889,20200503,Moderate Decomposition,USA,NMFSGAR05042020Ba,MAY,UNK
+551,,,,,"Whale, minke",,,newport,RI,,,,,,,,,,,41.4364,-71.30138,20200616,Fresh,USA,NMFSGAR06172020Ba,JUN,F
+552,,,,,"Whale, minke",,,washington,RI,,,,,,,,,,,41.3707,-71.4784,20200622,Moderate Decomposition,USA,NMFSGAR06232020Ba,JUN,M
+553,,,,,"Whale, minke",,,washington,RI,,,,,,,,,,,41.399417,-71.459583,20200905,Moderate Decomposition,USA,NMFSGAR09062020Ba,SEP,F
+554,,,,,"Whale, minke",,,accomack,VA,,,,,,,,,,,37.760117,-75.806767,20200202,Moderate Decomposition,USA,VAQS20201003,FEB,F
+555,,,,,"Whale, minke",,,norfolk,VA,,,,,,,,,,,36.952731,-76.271689,20200211,Moderate Decomposition,USA,VAQS20201008,FEB,F
+556,,,,,"Whale, minke",,,accomack,VA,,,,,,,,,,,37.860194,-75.394722,20200214,Moderate Decomposition,USA,VAQS20201009,FEB,M
+557,,,,,"Whale, minke",,,accomack,VA,,,,,,,,,,,37.922069,-75.320627,20200917,Moderate Decomposition,USA,VAQS20201083,SEP,F
+558,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,40.574,-73.193,20210805,Advanced Decomposition,USA,AMCS105Ba2021,AUG,UNK
+559,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,41.170833,-71.718917,20210919,Advanced Decomposition,USA,AMCS134Ba2021,SEP,UNK
+560,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.850788,-70.006183,20210418,Advanced Decomposition,USA,IFAW21-122Ba,APR,F
+561,,,,,"Whale, minke",,,plymouth,MA,,,,,,,,,,,41.926533,-70.5076,20210716,Moderate Decomposition,USA,IFAW21-210Ba,JUL,M
+562,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.961969,-70.0771056,20210726,Advanced Decomposition,USA,IFAW21-225Ba,JUL,UNK
+563,,,,,"Whale, minke",,,york,ME,,,,,,,,,,,43.24333,-70.548333,20210714,Moderate Decomposition,USA,MME-21-140Ba,JUL,F
+564,,,,,"Whale, minke",,,ocean,NJ,,,,,,,,,,,39.541458,-74.254884,20210201,Advanced Decomposition,USA,MMSC-21-006,FEB,F
+565,,,,,"Whale, minke",,,suffolk,MA,,,,,,,,,,,42.390556,-70.828333,20211017,Moderate Decomposition,USA,NMFSGAR10182021Ba,OCT,UNK
+566,,,,,"Whale, minke",,,northampton,VA,,,,,,,,,,,37.318936,-75.764079,20210115,Advanced Decomposition,USA,VAQ20211003,JAN,UNK
+567,,,,,"Whale, minke",,,essex,MA,,,,,,,,,,,42.68509,-70.64258,20210415,Moderate Decomposition,USA,SSC-21-033Ba,APR,M
+568,,,,,"Whale, minke",,,essex,MA,,,,,,,,,,,42.54577,-70.85946,20211003,Moderate Decomposition,USA,SSC-21-095 Ba,OCT,M
+569,,,,,"Whale, minke",,,sagadahoc,ME,,,,,,,,,,,43.691972,-69.707028,20210731,Fresh,USA,MME-21-165Ba,AUG,F
+570,,,,,"Whale, minke",,,lincoln,ME,,,,,,,,,,,43.44607,-69.36387,20210805,Moderate Decomposition,USA,MME-21-170Ba,AUG,UNK
+571,,,,,"Whale, minke",,,washington,RI,,,,,,,,,,,41.360259,-71.492599,20210703,Fresh,USA,SYBa2118,JUL,M
+572,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.7794,-70.4961,20210902,Moderate Decomposition,USA,IFAW21-250Ba,SEP,UNK
+573,,,,,"Whale, minke",,,washington,RI,,,,,,,,,,,41.353653,-71.517376,20210924,Moderate Decomposition,USA,SYBa2125,SEP,M
+574,,,,,"Whale, minke",,,lincoln,ME,,,,,,,,,,,43.729283,-69.345573,20210927,Fresh,USA,MME-21-270Ba,SEP,UNK
+575,,,,,"Whale, minke",,,dukes,MA,,,,,,,,,,,41.5040119,-70.7275755,20211001,Fresh,USA,IFAW21-261Ba,OCT,M
+576,,,,,"Whale, minke",,,sagadahoc,ME,,,,,,,,,,,43.641667,-69.813333,20211009,Moderate Decomposition,USA,NMFSGAR101021Ba,OCT,UNK
+577,,,,,"Whale, minke",,,knox,ME,,,,,,,,,,,44.372778,-67.873333,20220511,Advanced Decomposition,USA,COA220512Ba,MAY,UNK
+578,,,,,"Whale, minke",,,washington,ME,,,,,,,,,,,44.408993,-67.890064,20220528,Moderate Decomposition,USA,COA220529Ba,MAY,F
+579,,,,,"Whale, minke",,,nassau,NY,,,,,,,,,,,40.58006,-73.425094,20220610,Fresh,USA,AMCS064Ba2022,JUN,UNK
+580,,,,,"Whale, minke",,,washington,ME,,,,,,,,,,,44.24175,-67.40372,20220901,Fresh,USA,COA220902Ba,SEP,M
+581,,,,,"Whale, minke",,,knox,ME,,,,,,,,,,,44.091914,-69.058088,20220702,Fresh,USA,MME-22-162Ba,JUL,M
+582,,,,,"Whale, minke",,,hancock,ME,,,,,,,,,,,43.722,-69.905,20220709,Fresh,USA,MME-22-202Ba,JUL,M
+583,,,,,"Whale, minke",,,washington,RI,,,,,,,,,,,41.356026,-71.639127,20220807,Advanced Decomposition,USA,SXBa2253,AUG,F
+584,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.724617,-69.95645,20220812,Fresh,USA,IFAW22-194Ba,AUG,M
+585,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.6335,-69.973167,20220907,Fresh,USA,MME-22-378Ba,SEP,F
+586,,,,,"Whale, minke",,,plymouth,MA,,,,,,,,,,,42.2234,-70.74998,20221004,Fresh,USA,NMFSGAR10052022Ba,OCT,UNK
+587,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.712734,-70.311925,20221105,Moderate Decomposition,USA,IFAW22-234Ba,NOV,M
+588,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,41.04423,-72.42295,20221109,Fresh,USA,AMCS122Ba2022,NOV,M
+589,,,,,"Whale, minke",,,nassau,NY,,,,,,,,,,,40.58006,-73.425094,20220612,Advanced Decomposition,USA,AMCS063Ba2022,JUN,UNK
+590,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.12709,-70.07887,20221221,Moderate Decomposition,USA,NMFSGAR12222022Ba,DEC,UNK
+591,,,,,"Whale, minke",,,queens,NY,,,,,,,,,,,40.567323,-73.863874,20230216,Moderate Decomposition,USA,AMCS019Ba2023,FEB,F
+592,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.72732,-70.30518,20230309,Moderate Decomposition,USA,IFAW23-057Ba,MAR,F
+593,,,,,"Whale, minke",,,barnstable,MA ,,,,,,,,,,,41.732054,-70.368339,20230310,Advanced Decomposition,USA,IFAW23-060Ba,MAR,UNK
+594,,,,,"Whale, minke",,,barnstable,MA,,,,,,,,,,,41.857304,-70.007284,20230503,Fresh,USA,IFAW23-121Ba,MAY,F
+595,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,40.77712,-72.7212,20230504,Moderate Decomposition,USA,AMCS059Ba2023,MAY,F
+596,,,,,"Whale, minke",,,york,ME,,,,,,,,,,,43.1656394,-70.6144949,20230504,Fresh,USA,MME-23-046Ba,MAY,M
+597,,,,,"Whale, minke",,,essex,MA,,,,,,,,,,,42.64651,-70.68998,20230506,Advanced Decomposition,USA,SSC-23-035-Ba,MAY,M
+598,,,,,"Whale, minke",,,dukes,MA,,,,,,,,,,,41.335269,-70.73655,20230507,Advanced Decomposition,USA,Pending,MAY,UNK
+599,,,,,"Whale, minke",,,virginia beach,VA,,,,,,,,,,,36.55875,-75.86974,20230603,Fresh,USA,VAQS20231041,JUN,F
+600,,,,,"Whale, minke",,,suffolk,NY,,,,,,,,,,,40.902539,-72.298878,20230613,UNK,USA,AMCS077Ba2023,JUN,UNK
+601,,,,,"Whale, minke",,,cumberland,ME,,,,,,,,,,,43.65088,-70.190818,20230629,Advanced Decomposition,USA,MME-23-145Ba,JUN,F
+602,,,,,"Whale, minke",,,bristol,MA,,,,,,,,,,,41.674946,-70.915121,20230701,Moderate Decomposition,USA,IFAW23-192Ba,JUL,F
+603,,,,,"Whale, minke",,,northampton,VA,,,,,,,,,,,37.177594,-75.849631,20230707,Advanced Decomposition,USA,VAQS20231060,JUL,UNK
+604,,,,,"Whale, minke",,,york,ME,,,,,,,,,,,43.356355,-70.422849,20230711,Moderate Decomposition,USA,MME-23-180,JUL,UNK
+605,,,,,"Whale, minke",,,knox,ME,,,,,,,,,,,44.061904,-68.904095,20230729,Moderate Decomposition,USA,COA230730Ba,JUL,UNK
+606,,,,,"Whale, minke",,,knox,ME,,,,,,,,,,,44.148638,-68.899792,20230801,Fresh,USA,COA230802Ba,AUG,F
+607,,,,,"Whale, minke",,,hancock,ME,,,,,,,,,,,44.323038,-68.466832,20230803,Fresh,USA,COA230804Ba,AUG,F
+608,,,,,"Whale, minke",,,queens,NY,,,,,,,,,,,40.54077,-73.845,20230819,Moderate Decomposition,USA,AMCS122Ba2023,AUG,UNK
+609,,,,,"Whale, minke",,,washington,ME,,,,,,,,,,,44.921389,-67.213,20230819,Fresh,USA,COA230820Ba,AUG,UNK
