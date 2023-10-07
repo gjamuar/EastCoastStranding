@@ -59,7 +59,7 @@ def test(num):
 
 
 def process_files(date_list):
-    with multiprocessing.Pool(processes=10) as pool:
+    with multiprocessing.Pool(processes=5) as pool:
         pool.map(download_data, date_list)
         pool.close()
         pool.join()
@@ -137,5 +137,5 @@ def download_file(url):
 if __name__ == "__main__":
     # main()
     # download_files(2022, 1, 1, 2023, 3, 28)
-    download_files(2021, 1, 1, 2021, 12, 31)
+    download_files(2014, 12, 1, 2014, 12, 31)
     # process_files()

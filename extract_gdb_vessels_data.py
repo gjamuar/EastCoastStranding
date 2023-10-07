@@ -83,10 +83,10 @@ def process_gdb_csv(zone):
     final_merged['LON'] = final_merged['LON'].astype(float)
     final_merged['LAT'] = final_merged['LAT'].astype(float)
 
-    east_coast_df = final_merged[(final_merged['LAT'] >= 36.5) & (final_merged['LAT'] <= 46.0) &
-                                 (final_merged['LON'] >= -87.0) & (final_merged['LON'] <= -65.0)]
+    # east_coast_df = final_merged[(final_merged['LAT'] >= 36.5) & (final_merged['LAT'] <= 46.0) &
+    #                              (final_merged['LON'] >= -87.0) & (final_merged['LON'] <= -65.0)]
 
-    east_coast_df[['SOG', 'COG', 'Heading', 'BaseDateTime', 'Status',
+    final_merged[['SOG', 'COG', 'Heading', 'BaseDateTime', 'Status',
                   'MMSI', 'geometry', 'IMO', 'CallSign',
                   'Name', 'VesselType', 'Length', 'Width',
                   'Cargo', 'LON', 'LAT']].to_parquet("Zone10_2014_01")

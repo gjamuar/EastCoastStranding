@@ -1,0 +1,391 @@
+Obs_Date,Year,Month,lat,lon,ComName,Carcass Condition,State,County
+03/20/2000,2000,Mar,40.84716667,-72.5769999999999,"Whale, humpback",Alive,NY,Suffolk
+05/12/2000,2000,May,41.8295,-70.00433333,"Whale, humpback",Advanced Decomposition,MA,Barnstable
+06/02/2000,2000,Jun,41.5818333300001,-69.99183333,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+06/17/2000,2000,Jun,38.7450000000001,-74.85666667,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+08/18/2000,2000,Aug,41.6000000000001,-67.6,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+09/23/2000,2000,Sep,38.04133333,-75.232,"Whale, humpback",Advanced Decomposition,MD,Worcester
+10/07/2000,2000,Oct,41.73568333,-70.32046667,"Whale, humpback",Advanced Decomposition,MA,Barnstable
+10/07/2000,2000,Oct,41.73568333,-70.32046667,"Whale, humpback",Advanced Decomposition,MA,Barnstable
+11/01/2000,2000,Nov,42.6771666700001,-70.6228333299999,"Whale, humpback",Advanced Decomposition,MA,Essex
+01/18/2001,2001,Jan,39.9,-73.9,"Whale, humpback",Moderate Decomposition,NJ,Unknown
+05/20/2001,2001,May,42.0333333300001,-70.63333333,"Whale, humpback",Moderate Decomposition,MA,Plymouth
+05/27/2001,2001,May,41.7620000000001,-70.114,"Whale, humpback",Alive,MA,Barnstable
+05/27/2001,2001,May,41.7620000000001,-70.114,"Whale, humpback",Alive,MA,Barnstable
+05/30/2001,2001,May,37.5,-75.6,"Whale, humpback",Moderate Decomposition,VA,Accomack
+06/22/2001,2001,Jun,41.4686666700001,-71.2965,"Whale, humpback",Advanced Decomposition,RI,Newport
+07/12/2001,2001,Jul,41.265,-70.188,"Whale, humpback",Advanced Decomposition,MA,Nantucket
+07/29/2001,2001,Jul,40.5833333300001,-74.0291666699999,"Whale, humpback",Moderate Decomposition,NY,Unknown
+08/01/2001,2001,Aug,42.7666666700001,-69.35,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+08/10/2001,2001,Aug,41.4740000000001,-71.2474999999999,"Whale, humpback",Advanced Decomposition,RI,Newport
+08/14/2001,2001,Aug,39.95638889,-74.0674999999999,"Whale, humpback",Advanced Decomposition,NJ,Ocean
+08/18/2001,2001,Aug,38.1583333300001,-75.01722222,"Whale, humpback",Fresh Dead,MD,Worcester
+09/08/2001,2001,Sep,40.17583333,-74.01333333,"Whale, humpback",Fresh Dead,NJ,Ocean
+09/17/2001,2001,Sep,38.9833333300001,-74.81333333,"Whale, humpback",Advanced Decomposition,NJ,Cape May
+02/08/2002,2002,Feb,36.951667,-76.085833,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach (City)
+03/24/2002,2002,Mar,36.79883333,-75.9575,"Whale, humpback",Moderate Decomposition,VA,Unknown
+04/16/2002,2002,Apr,40.6322222200001,-73.20527778,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+05/01/2002,2002,May,42.6683333300001,-69.9133333299999,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+05/16/2002,2002,May,43.7500000000001,-67.65,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+05/30/2002,2002,May,40.18333333,-68.7166666699999,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+06/07/2002,2002,Jun,43.53961667,-70.2386999999999,"Whale, humpback",Moderate Decomposition,ME,Cumberland
+08/01/2002,2002,Aug,40.52611111,-73.56138889,"Whale, humpback",Advanced Decomposition,NY,Nassau
+10/01/2002,2002,Oct,42.0641666700001,-70.246,"Whale, humpback",Fresh Dead,MA,Barnstable
+10/18/2002,2002,Oct,41.63033333,-69.95783333,"Whale, humpback",Alive,MA,Barnstable
+10/30/2002,2002,Oct,36.8910000000001,-75.989,"Whale, humpback",Advanced Decomposition,VA,Unknown
+11/20/2002,2002,Nov,42.0471666700001,-70.2959999999999,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+04/01/2003,2003,Apr,41.6107,-69.9775999999999,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+06/06/2003,2003,Jun,36.9965,-76.0776999999999,"Whale, humpback",Moderate Decomposition,VA,Unknown
+06/16/2003,2003,Jun,43.3550000000001,-69.1866669999999,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+06/17/2003,2003,Jun,39.25669444,-74.60077778,"Whale, humpback",Advanced Decomposition,NJ,Cape May
+06/17/2003,2003,Jun,39.25669444,-74.60077778,"Whale, humpback",Advanced Decomposition,NJ,Cape May
+06/17/2003,2003,Jun,41.6783330000001,-66.855,"Whale, humpback",Fresh Dead,EZ,Unknown
+07/03/2003,2003,Jul,41.37,-66.96333333,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+07/03/2003,2003,Jul,41.465,-66.98,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+07/03/2003,2003,Jul,41.4566666700001,-66.67166667,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+07/23/2003,2003,Jul,41.8200000000001,-67.12333333,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+07/28/2003,2003,Jul,41.455,-67.6433333299999,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+07/28/2003,2003,Jul,41.5716666700001,-66.86166667,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+07/28/2003,2003,Jul,41.66,-66.32833333,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+07/28/2003,2003,Jul,41.79366667,-66.4281666699999,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+07/29/2003,2003,Jul,41.965,-66.76333333,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+07/30/2003,2003,Jul,43.15,-65.51666667,"Whale, humpback",Condition Unknown,EZ,Unknown
+07/30/2003,2003,Jul,41.92166667,-66.5383333299999,"Whale, humpback",Fresh Dead,EZ,Unknown
+07/31/2003,2003,Jul,43.04466667,-65.9575,"Whale, humpback",Condition Unknown,EZ,Unknown
+08/09/2003,2003,Aug,44.4675,-67.57166667,"Whale, humpback",Advanced Decomposition,ME,Washington
+08/09/2003,2003,Aug,44.4675,-67.57166667,"Whale, humpback",Advanced Decomposition,ME,Washington
+08/15/2003,2003,Aug,44.1991666700001,-67.8413333299999,"Whale, humpback",Moderate Decomposition,ME,Hancock
+08/24/2003,2003,Aug,42.8800000000001,-65.771667,"Whale, humpback",Mummified/Skeletal,EZ,Unknown
+09/30/2003,2003,Sep,43.815,-69.47,"Whale, humpback",Moderate Decomposition,ME,Lincoln
+04/20/2004,2004,Apr,40.81217,-72.57796,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+05/12/2004,2004,May,41.3484833300001,-70.5289,"Whale, humpback",Advanced Decomposition,MA,Dukes
+05/20/2004,2004,May,41.4,-70.9,"Whale, humpback",Advanced Decomposition,RI,Dukes
+05/20/2004,2004,May,41.4,-70.9,"Whale, humpback",Advanced Decomposition,RI,Dukes
+07/06/2004,2004,Jul,41.4563333300001,-71.3128333299999,"Whale, humpback",Condition Unknown,RI,Newport
+08/10/2004,2004,Aug,41.2716666700001,-66.9233333299999,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+12/11/2004,2004,Dec,41.96016667,-69.3268333299999,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+12/15/2004,2004,Dec,41.8313333300001,-68.8485,"Whale, humpback",Fresh Dead,EZ,Unknown
+12/19/2004,2004,Dec,38.7925000000001,-75.0882999999999,"Whale, humpback",Moderate Decomposition,DE,Sussex
+06/14/2005,2005,Jun,38.3100000000001,-74.9716999999999,"Whale, humpback",Fresh Dead,MD,Worcester
+07/01/2005,2005,Jul,37.7647200000001,-75.5400299999999,"Whale, humpback",Advanced Decomposition,VA,Accomack
+07/12/2005,2005,Jul,41.283333,-68.616667,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+07/21/2005,2005,Jul,43.583333,-68.75,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+09/03/2005,2005,Sep,44.4690000000001,-67.7343,"Whale, humpback",Advanced Decomposition,ME,Washington
+10/01/2005,2005,Oct,41.6666670000001,-66.9,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+03/17/2006,2006,Mar,36.8375,-76.003,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach (City)
+04/14/2006,2006,Apr,40.4,-69.4843999999999,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+07/10/2006,2006,Jul,41.955,-67.291666,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+07/10/2006,2006,Jul,41.716666,-67.099999,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+07/20/2006,2006,Jul,44.16,-67.8519,"Whale, humpback",Advanced Decomposition,ME,Hancock
+08/01/2006,2006,Aug,41.4200000000001,-71.1899999999999,"Whale, humpback",Fresh Dead,EZ,Unknown
+08/05/2006,2006,Aug,36.7301400000001,-75.93729,"Whale, humpback",Alive,VA,Virginia Beach (City)
+08/21/2006,2006,Aug,41.6303330000001,-66.970333,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+08/22/2006,2006,Aug,41.7500000000001,-66.8166659999999,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+09/06/2006,2006,Sep,42.0650000000001,-68.2516659999999,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+09/22/2006,2006,Sep,41.9183330000001,-67.019999,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+09/26/2006,2006,Sep,41.21,-70.1199999999999,"Whale, humpback",Advanced Decomposition,MA,Nantucket
+09/27/2006,2006,Sep,38.9712850000001,-74.82645,"Whale, humpback",Advanced Decomposition,NJ,Cape May
+10/15/2006,2006,Oct,38.7754,-75.0841,"Whale, humpback",Advanced Decomposition,DE,Sussex
+11/21/2006,2006,Nov,41.0666660000001,-66.9333329999999,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+11/26/2006,2006,Nov,41.333333,-69.166666,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+11/26/2006,2006,Nov,41.333333,-69.166666,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+04/18/2007,2007,Apr,42.6350800000001,-70.5985699999999,"Whale, humpback",Alive,MA,Essex
+05/10/2007,2007,May,37.6104740000001,-75.45975,"Whale, humpback",Advanced Decomposition,VA,Eez
+05/30/2007,2007,May,41.5583300000001,-69.02,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+06/24/2007,2007,Jun,42.1666000000001,-70.2393,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+07/02/2007,2007,Jul,42.1833300000001,-67.76667,"Whale, humpback",Condition Unknown,EZ,Unknown
+07/03/2007,2007,Jul,40.5500000000001,-70.76667,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+07/24/2007,2007,Jul,41.7333300000001,-67.2,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+07/25/2007,2007,Jul,44.343333,-67.7499999999999,"Whale, humpback",Moderate Decomposition,ME,Washington
+08/11/2007,2007,Aug,41.8993,-69.9472,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+08/29/2007,2007,Aug,42.2166700000001,-69.1166699999999,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+10/04/2007,2007,Oct,37.7785000000001,-75.44093,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+10/09/2007,2007,Oct,41.6783300000001,-67.1283299999999,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+10/21/2007,2007,Oct,38.1752222200001,-75.16202778,"Whale, humpback",Advanced Decomposition,MD,Worcester
+10/21/2007,2007,Oct,38.1752222200001,-75.16202778,"Whale, humpback",Advanced Decomposition,MD,Worcester
+11/18/2007,2007,Nov,39.9800000000001,-68.63217,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+11/18/2007,2007,Nov,39.9800000000001,-68.63217,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+01/17/2008,2008,Jan,40.39,-70.445,"Whale, humpback",Advanced Decomposition,EZ,Unknown
+02/06/2008,2008,Feb,38.2216700000001,-73.68,"Whale, humpback",Advanced Decomposition,MD,Eez
+02/10/2008,2008,Feb,40.6016700000001,-70.7416699999999,"Whale, humpback",Condition Unknown,NY,Eez
+06/09/2008,2008,Jun,41.7533300000001,-66.80333,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+06/13/2008,2008,Jun,40.7500000000001,-68.8666699999999,"Whale, humpback",Advanced Decomposition,MA,Eez
+06/13/2008,2008,Jun,43.95,-67.6833,"Whale, humpback",Moderate Decomposition,ME,Hancock
+06/30/2008,2008,Jun,41.7275000000001,-66.78889,"Whale, humpback",Moderate Decomposition,MA,Floater
+07/11/2008,2008,Jul,41.58333,-66.8,"Whale, humpback",Moderate Decomposition,MA,Eez
+07/11/2008,2008,Jul,41.6833300000001,-66.71667,"Whale, humpback",Advanced Decomposition,MA,Eez
+07/14/2008,2008,Jul,44.6000000000001,-67.4165999999999,"Whale, humpback",Advanced Decomposition,ME,Washington
+09/08/2008,2008,Sep,44.4881,-67.6670999999999,"Whale, humpback",Moderate Decomposition,ME,Washington
+09/16/2008,2008,Sep,42.0150000000001,-70.28833,"Whale, humpback",Moderate Decomposition,MA,Eez
+10/08/2008,2008,Oct,41.2600000000001,-68.3516,"Whale, humpback",Moderate Decomposition,MA,Eez
+10/24/2008,2008,Oct,41.81,-69.426,"Whale, humpback",Moderate Decomposition,MA,Eez
+11/04/2008,2008,Nov,38.2083000000001,-75.1471999999999,"Whale, humpback",Moderate Decomposition,MD,Worcester
+03/07/2009,2009,Mar,38.14518,-75.17267,"Whale, humpback",Moderate Decomposition,MD,Worcester
+03/07/2009,2009,Mar,38.14518,-75.17267,"Whale, humpback",Moderate Decomposition,MD,Worcester
+03/20/2009,2009,Mar,37.99426,-75.26852,"Whale, humpback",Advanced Decomposition,VA,Accomack
+03/27/2009,2009,Mar,40.8475,-72.4637,"Whale, humpback",Mummified/Skeletal,NY,Suffolk
+04/09/2009,2009,Apr,40.5584000000001,-73.9922999999999,"Whale, humpback",Alive,NY,New York
+04/17/2009,2009,Apr,36.6783,-75.1967,"Whale, humpback",Moderate Decomposition,VA,Eez
+06/14/2009,2009,Jun,41.4736,-71.1623,"Whale, humpback",Moderate Decomposition,RI,Newport
+07/20/2009,2009,Jul,43.8115000000001,-69.0083,"Whale, humpback",Advanced Decomposition,ME,Eez
+07/27/2009,2009,Jul,40.3340230000001,-73.973266,"Whale, humpback",Moderate Decomposition,NJ,Monmouth
+08/17/2009,2009,Aug,41.7083000000001,-69.4512999999999,"Whale, humpback",Moderate Decomposition,MA,Eez
+08/21/2009,2009,Aug,41.4690000000001,-71.196,"Whale, humpback",Advanced Decomposition,RI,Newport
+08/27/2009,2009,Aug,41.4960000000001,-69.025,"Whale, humpback",Moderate Decomposition,MA,Eez
+09/13/2009,2009,Sep,42.2700000000001,-70.68,"Whale, humpback",Condition Unknown,MA,Norfolk
+09/26/2009,2009,Sep,37.26494,-76.41495,"Whale, humpback",Moderate Decomposition,VA,Gloucester
+09/27/2009,2009,Sep,41.3507000000001,-70.492,"Whale, humpback",Alive,MA,Dukes
+01/14/2010,2010,Jan,42.095,-68.003,"Whale, humpback",Advanced Decomposition,MA,Eez
+03/13/2010,2010,Mar,38.3244140000001,-75.0851939999999,"Whale, humpback",Moderate Decomposition,MD,Worcester
+04/06/2010,2010,Apr,40.9454000000001,-72.187,"Whale, humpback",Alive,NY,Suffolk
+05/05/2010,2010,May,37.1967930000001,-76.0404829999999,"Whale, humpback",Alive,VA,Northampton
+05/21/2010,2010,May,39.556,-71.708,"Whale, humpback",Moderate Decomposition,NY,Eez
+05/28/2010,2010,May,41.3504080000001,-70.588939,"Whale, humpback",Advanced Decomposition,MA,Dukes
+06/10/2010,2010,Jun,40.5997,-73.4714999999999,"Whale, humpback",Moderate Decomposition,NY,Nassau
+07/01/2010,2010,Jul,42.0916,-67.6915999999999,"Whale, humpback",Condition Unknown,MA,Eez
+07/04/2010,2010,Jul,38.336533,-75.0809999999999,"Whale, humpback",Moderate Decomposition,MD,Worcester
+08/26/2010,2010,Aug,41.6365000000001,-69.6595999999999,"Whale, humpback",Moderate Decomposition,MA,Eez
+08/26/2010,2010,Aug,41.6365000000001,-69.6595999999999,"Whale, humpback",Moderate Decomposition,MA,Eez
+09/09/2010,2010,Sep,42.1650300000001,-70.301483,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+11/02/2010,2010,Nov,40.2443000000001,-73.90183,"Whale, humpback",Moderate Decomposition,NJ,Eez
+01/14/2011,2011,Jan,41.3500000000001,-68.7599999999999,"Whale, humpback",Moderate Decomposition,MA,Eez
+04/15/2011,2011,Apr,36.700633,-75.919667,"Whale, humpback",Alive,VA,Virginia Beach (City)
+05/28/2011,2011,May,39.811788,-74.089717,"Whale, humpback",Advanced Decomposition,NJ,Ocean
+07/02/2011,2011,Jul,42.0811600000001,-70.3183299999999,"Whale, humpback",Alive,MA,Unknown
+07/10/2011,2011,Jul,41.4853000000001,-69.7884999999999,"Whale, humpback",Moderate Decomposition,MA,Unknown
+07/15/2011,2011,Jul,41.2730020000001,-70.234254,"Whale, humpback",Moderate Decomposition,MA,Nantucket
+05/20/2012,2012,May,43.0099900000001,-67.8292999999999,"Whale, humpback",Moderate Decomposition,MA,Eez
+05/20/2012,2012,May,43.0099900000001,-67.8292999999999,"Whale, humpback",Moderate Decomposition,MA,Eez
+06/29/2012,2012,Jun,44.2333,-68.2352779999999,"Whale, humpback",Fresh Dead,ME,Hancock
+07/20/2012,2012,Jul,41.3579990000001,-71.495075,"Whale, humpback",Condition Unknown,RI,Washington
+07/20/2012,2012,Jul,41.3579990000001,-71.495075,"Whale, humpback",Condition Unknown,RI,Washington
+08/01/2012,2012,Aug,43.9914830000001,-69.1170339999999,"Whale, humpback",Mummified/Skeletal,ME,Knox
+08/10/2012,2012,Aug,41.3497000000001,-70.6,"Whale, humpback",Advanced Decomposition,MA,Dukes
+08/24/2012,2012,Aug,44.1766700000001,-68.085278,"Whale, humpback",Advanced Decomposition,ME,Hancock
+09/26/2012,2012,Sep,37.867626,-75.43333,"Whale, humpback",Alive,VA,Accomack
+01/25/2013,2013,Jan,36.6460000000001,-75.386,"Whale, humpback",Moderate Decomposition,VA,Eez
+04/03/2013,2013,Apr,36.9238100000001,-75.795833,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach (City)
+04/10/2013,2013,Apr,36.9751900000001,-75.09959,"Whale, humpback",Moderate Decomposition,VA,Eez
+04/17/2013,2013,Apr,40.8210030000001,-72.548847,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+06/06/2013,2013,Jun,40.7010000000001,-70.042,"Whale, humpback",Advanced Decomposition,MA,Eez
+09/13/2013,2013,Sep,37.2027780000001,-76.3813889999999,"Whale, humpback",Moderate Decomposition,VA,York
+09/28/2013,2013,Sep,40.6271,-73.3595,"Whale, humpback",Alive,NY,Suffolk
+10/01/2013,2013,Oct,41.5213000000001,-70.8074999999999,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+11/14/2013,2013,Nov,40.1412500000001,-73.9994999999999,"Whale, humpback",Alive,NJ,Monmouth
+01/10/2014,2014,Jan,42.549,-69.516,"Whale, humpback",Moderate Decomposition,EZ,Unknown
+05/03/2014,2014,May,39.146167,-72.9052,"Whale, humpback",Moderate Decomposition,NJ,Eez
+09/03/2014,2014,Sep,39.6839670000001,-74.140017,"Whale, humpback",Alive,NJ,Ocean
+12/25/2014,2014,Dec,44.2555560000001,-68.2124439999999,"Whale, humpback",Fresh Dead,ME,Hancock
+03/20/2015,2015,Mar,41.9833300000001,-67.27333,"Whale, humpback",Moderate Decomposition,MA,Eez
+04/14/2015,2015,Apr,40.7846000000001,-72.6775,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+04/20/2015,2015,Apr,40.7264000000001,-72.8833,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+05/01/2015,2015,May,37.39999,-75.69868,"Whale, humpback",Advanced Decomposition,VA,Northampton
+05/29/2015,2015,May,37.05981,-74.921867,"Whale, humpback",Advanced Decomposition,VA,Eez
+06/11/2015,2015,Jun,44.3361600000001,-68.17488,"Whale, humpback",Moderate Decomposition,ME,Hancock
+06/29/2015,2015,Jun,40.6842,-73.0013999999999,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+10/06/2015,2015,Oct,41.0403000000001,-71.9045,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+1/15/2016,2016,Jan,36.921417,-75.667414,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach
+1/27/2016,2016,Jan,33.99518,-77.90637,"Whale, humpback",Fresh Dead,NC,New Hanover
+2/17/2016,2016,Feb,33.21143,-79.18188,"Whale, humpback",Moderate Decomposition,SC,Georgetown
+2/19/2016,2016,Feb,35.29202,-75.51358,"Whale, humpback",Moderate Decomposition,NC,Dare
+3/16/2016,2016,Mar,41.20787,-71.55622,"Whale, humpback",Moderate Decomposition,RI,Washington
+3/24/2016,2016,Mar,39.720539,-74.121103,"Whale, humpback",Moderate Decomposition,NJ,Ocean
+4/23/2016,2016,Apr,41.465721,-71.302361,"Whale, humpback",Fresh Dead,RI,Newport
+4/25/2016,2016,Apr,42.049393,-70.642831,"Whale, humpback",Moderate Decomposition,MA,Plymouth
+4/26/2016,2016,Apr,40.9953,-72.0922,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+6/4/2016,2016,Jun,40.7997,-72.7265,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+6/17/2016,2016,Jun,38.56705,-75.05687,"Whale, humpback",Moderate Decomposition,DE,Sussex
+6/24/2016,2016,Jun,40.8133,-72.5751,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+6/27/2016,2016,Jun,43.002,-70.7437,"Whale, humpback",Moderate Decomposition,NH,Rockingham
+7/5/2016,2016,Jul,38.822233,-75.036667,"Whale, humpback",Fresh Dead,DE,Sussex
+7/12/2016,2016,Jul,38.2531043,-75.1281681,"Whale, humpback",Advanced Decomposition,MD,Worcester
+8/25/2016,2016,Aug,44.55568,-67.50043,"Whale, humpback",Advanced Decomposition,ME,Washington
+9/12/2016,2016,Sep,41.350507,-70.574146,"Whale, humpback",Moderate Decomposition,MA,Dukes
+9/16/2016,2016,Sep,39.169567,-74.678493,"Whale, humpback",Moderate Decomposition,NJ,Cape May
+10/6/2016,2016,Oct,43.671849,-69.587925,"Whale, humpback",Advanced Decomposition,ME,Lincoln
+10/27/2016,2016,Oct,33.84367,-77.96867,"Whale, humpback",Fresh Dead,NC,Brunswick
+10/28/2016,2016,Oct,39.717316,-75.518067,"Whale, humpback",Moderate Decomposition,DE,New Castle
+11/18/2016,2016,Nov,40.398667,-73.834333,"Whale, humpback",Moderate Decomposition,NJ,EEZ
+11/23/2016,2016,Nov,40.7901,-72.7397,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+12/8/2016,2016,Dec,42.073416667,-70.12316667,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+12/11/2016,2016,Dec,37.643056,-76.123056,"Whale, humpback",Fresh Dead,VA,Northumberland
+12/19/2016,2016,Dec,36.53208,-75.864238,"Whale, humpback",Moderate Decomposition,NC,Currituck
+1/12/2017,2017,Jan,39.469517,-74.300101,"Whale, humpback",Fresh Dead,NJ,Atlantic
+1/16/2017,2017,Jan,36.1187582,-75.7204116,"Whale, humpback",Advanced Decomposition,NC,Dare
+1/24/2017,2017,Jan,37.29159,-76.01563,"Whale, humpback",Advanced Decomposition,VA,Northampton
+1/26/2017,2017,Jan,34.71946,-76.44694,"Whale, humpback",Fresh Dead,NC,Carteret
+2/2/2017,2017,Feb,36.9991,-76.318,"Whale, humpback",Moderate Decomposition,VA,Hampton
+2/5/2017,2017,Feb,37.112983,-76.07425,"Whale, humpback",Moderate Decomposition,VA,Northampton
+2/11/2017,2017,Feb,39.358997,-75.356589,"Whale, humpback",Moderate Decomposition,NJ,Cumberland
+2/11/2017,2017,Feb,36.949316,-76.030037,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach
+2/17/2017,2017,Feb,35.983444,-75.166861,"Whale, humpback",Moderate Decomposition,NC,Dare
+2/20/2017,2017,Feb,38.0706,-74.9735,"Whale, humpback",Moderate Decomposition,MD,Worcester
+2/25/2017,2017,Feb,37.857323,-75.371567,"Whale, humpback",Advanced Decomposition,VA,Accomack
+3/17/2017,2017,Mar,35.30663,-75.51,"Whale, humpback",Moderate Decomposition,NC,Dare
+3/24/2017,2017,Mar,35.62302,-75.46765,"Whale, humpback",Advanced Decomposition,NC,Dare
+4/1/2017,2017,Apr,35.48011,-75.47974,"Whale, humpback",Moderate Decomposition,NC,Dare
+4/3/2017,2017,Apr,40.576225,-73.8362,"Whale, humpback",Moderate Decomposition,NY,Queens
+4/23/2017,2017,Apr,39.181077,-75.403408,"Whale, humpback",Advanced Decomposition,DE,New Castle
+5/4/2017,2017,May,38.734638,-75.07848,"Whale, humpback",Moderate Decomposition,DE,Sussex
+5/17/2017,2017,May,36.8724,-75.4349,"Whale, humpback",Moderate Decomposition,Va,EEZ
+6/3/2017,2017,Jun,39.6293,-73.9746,"Whale, humpback",Fresh Dead,NJ,Ocean
+6/15/2017,2017,Jun,41.4545,-71.40061,"Whale, humpback",Advanced Decomposition,RI,Newport
+6/18/2017,2017,Jun,41.59985,-69.9836,"Whale, humpback",Fresh Dead,MA,Barnstable
+6/21/2017,2017,Jun,41.624086,-69.965721,"Whale, humpback",Fresh Dead,MA,Barnstable
+7/6/2017,2017,Jul,41.12505,-70.561933,"Whale, humpback",Advanced Decomposition,MA,EEZ
+7/27/2017,2017,Jul,41.765317,-69.85965,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+8/8/2017,2017,Aug,41.244043,-70.060549,"Whale, humpback",Advanced Decomposition,MA,Nantucket
+8/17/2017,2017,Aug,41.6055556,-67.6105555555555,"Whale, humpback",Advanced Decomposition,MA ,EEZ
+9/5/2017,2017,Sep,41.1519889,-71.5522528,"Whale, humpback",Moderate Decomposition,RI,Washington
+10/1/2017,2017,Oct,41.1728,-71.5543,"Whale, humpback",Advanced Decomposition,RI,Washington
+10/19/2017,2017,Oct,41.1895,-72.1666,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+10/20/2017,2017,Oct,40.64,-72.47,"Whale, humpback",Fresh Dead,NY,EEZ
+10/31/2017,2017,Oct,41.1895,-72.1666,"Whale, humpback",Mummified/Skeletal Remains,NY,Suffolk
+11/26/2017,2017,Nov,36.91309,-76.080326,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach
+12/19/2017,2017,Dec,40.6811111,-69.9430555555555,"Whale, humpback",Moderate Decomposition,MA,EEZ
+12/26/2017,2017,Dec,40.583436,-73.702792,"Whale, humpback",Moderate Decomposition,NY,Nassau
+1/7/2018,2018,Jan,37.124171,-75.096376,"Whale, humpback",Moderate Decomposition,VA,Northampton
+1/22/2018,2018,Jan,36.696667,-75,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach
+1/28/2018,2018,Jan,30.5997,-81.4422,"Whale, humpback",Advanced Decomposition,FL,Nassau
+2/5/2018,2018,Feb,34.60827,-76.52822,"Whale, humpback",Advanced Decomposition,NC,Carteret
+2/11/2018,2018,Feb,37.853154,-75.393012,"Whale, humpback",Moderate Decomposition,VA,Accomack
+2/12/2018,2018,Feb,40.54302,-73.93919,"Whale, humpback",Moderate Decomposition,NY,Queens
+2/24/2018,2018,Feb,30.87763,-80.89457,"Whale, humpback",Fresh Dead,GA,EEZ
+2/28/2018,2018,Feb,36.308458,-75.431021,"Whale, humpback",Moderate Decomposition,NC,Currituck
+2/28/2018,2018,Feb,39.391354,-72.9566171,"Whale, humpback",Unknown,NY,EEZ
+3/1/2018,2018,Mar,42.1158333,-67.4336111111111,"Whale, humpback",Moderate Decomposition,MA,EEZ
+4/17/2018,2018,Apr,44.77374,-67.024449,"Whale, humpback",Advanced Decomposition,ME,Washington
+5/5/2018,2018,May,40.4674,-74.0104,"Whale, humpback",Moderate Decomposition,NJ,Monmouth
+5/18/2018,2018,May,40.583583,-73.67485,"Whale, humpback",Moderate Decomposition,NY,Nassau
+5/22/2018,2018,May,40.316861,-73.816917,"Whale, humpback",Moderate Decomposition,NJ,Monmouth
+5/22/2018,2018,May,41.01247,-70.42068,"Whale, humpback",Unknown,MA,EEZ
+5/27/2018,2018,May,40.6484,-73.134,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+5/31/2018,2018,May,37.73515147,-75.56317,"Whale, humpback",Mummified/Skeletal Remains,VA,Accomack
+6/1/2018,2018,Jun,40.556721,-73.902662,"Whale, humpback",Advanced Decomposition,NY,Queens
+6/14/2018,2018,Jun,40.59333,-73.736,"Whale, humpback",Moderate Decomposition,NY,Nassau
+7/26/2018,2018,Jul,40.9972,-72.0386,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+8/28/2018,2018,Aug,40.637101,-73.185207,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+9/7/2018,2018,Sep,42.25906,-70.80637,"Whale, humpback",Moderate Decomposition,MA,Norfolk
+9/17/2018,2018,Sep,42.5605556,-70.9266666666666,"Whale, humpback",Moderate Decomposition,MA,Essex
+9/29/2018,2018,Sep,44.121,-68.3681,"Whale, humpback",Advanced Decomposition,ME,Hancock
+12/16/2018,2018,Dec,38.8051042,-75.094573,"Whale, humpback",Moderate Decomposition,DE,Sussex
+2/3/2019,2019,Feb,35.791975,-74.599389,"Whale, humpback",Moderate Decomposition,NC,EEZ
+2/12/2019,2019,Feb,35.8025,-75.5433,"Whale, humpback",Moderate Decomposition,NC,Dare
+2/17/2019,2019,Feb,36.2817651,-75.7934379,"Whale, humpback",Fresh Dead,NC,Currituck
+2/17/2019,2019,Feb,36.6583,-75.9041,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach
+3/13/2019,2019,Mar,36.61778,-75.805,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach
+3/15/2019,2019,Mar,37.4859,-75.497815,"Whale, humpback",Moderate Decomposition,VA,Accomack
+3/17/2019,2019,Mar,36.333674,-75.811672,"Whale, humpback",Moderate Decomposition,NC,Currituck
+3/24/2019,2019,Mar,31.90402,-80.2366,"Whale, humpback",Moderate Decomposition,GA,EEZ
+4/14/2019,2019,Apr,37.20105,-75.828477,"Whale, humpback",Moderate Decomposition,VA,Northampton
+5/2/2019,2019,May,36.85667,-74.541667,"Whale, humpback",Advanced Decomposition,VA,Virginia Beach
+5/4/2019,2019,May,42.29306,-70.45861,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+5/5/2019,2019,May,40.7676,-72.741,"Whale, humpback",Fresh Dead,NY,Suffolk
+5/29/2019,2019,May,42.503689,-70.065064,"Whale, humpback",Moderate Decomposition,MA,EEZ
+6/6/2019,2019,Jun,39.196448,-74.650725,"Whale, humpback",Advanced Decomposition,DE,Cape May
+6/16/2019,2019,Jun,41.76666667,-66.81666667,"Whale, humpback",Unknown,MA,EEZ
+7/25/2019,2019,Jul,40.995,-71.759,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+8/9/2019,2019,Aug,40.6545,-72.7029,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+8/10/2019,2019,Aug,40.33875,-73.92265,"Whale, humpback",Advanced Decomposition,NJ,Monmouth
+8/26/2019,2019,Aug,42.2313889,-70.6191666666666,"Whale, humpback",Advanced Decomposition,MA,Plymouth
+9/30/2019,2019,Sep,40.58199,-73.6493,"Whale, humpback",Moderate Decomposition,NY,Nassau
+10/4/2019,2019,Oct,39.138255,-75.409333,"Whale, humpback",Moderate Decomposition,NJ,Cumberland
+10/9/2019,2019,Oct,39.773099,-74.094958,"Whale, humpback",Moderate Decomposition,NJ,Ocean
+10/18/2019,2019,Oct,39.895392,-74.079367,"Whale, humpback",Moderate Decomposition,NJ,Ocean
+10/26/2019,2019,Oct,39.896979,-74.032293,"Whale, humpback",Fresh Dead,NJ,Ocean
+10/29/2019,2019,Oct,36.882978,-75.982775,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach
+11/14/2019,2019,Nov,40.8608,-72.4145,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+12/13/2019,2019,Dec,41.172667,-71.13225,"Whale, humpback",Advanced Decomposition,RI,Newport
+1/15/2020,2020,Jan,38.6175,-75.04694,"Whale, humpback",Unknown,DE,Sussex
+1/23/2020,2020,Jan,36.334,-75.8122,"Whale, humpback",Moderate Decomposition,NC,Currituck
+1/28/2020,2020,Jan,37.662767,-76.153683,"Whale, humpback",Moderate Decomposition,VA,Accomack
+2/4/2020,2020,Feb,37.087341,-75.940227,"Whale, humpback",Moderate Decomposition,VA,Northampton
+2/5/2020,2020,Feb,37.385,-75.618,"Whale, humpback",Moderate Decomposition,VA,Northampton
+2/8/2020,2020,Feb,41.92581,-70.06562,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+2/17/2020,2020,Feb,39.593,-72.41,"Whale, humpback",Moderate Decomposition,NY,EEZ
+3/5/2020,2020,Mar,35.9541,-75.621,"Whale, humpback",Moderate Decomposition,NC,Dare
+3/11/2020,2020,Mar,40.83361,-70.61722,"Whale, humpback",Moderate Decomposition,MA,EEZ
+3/31/2020,2020,Mar,40.5643,-73.8726,"Whale, humpback",Moderate Decomposition,NY,Queens
+4/9/2020,2020,Apr,33.9062,-78.09578,"Whale, humpback",Moderate Decomposition,NC,Brunswick
+4/30/2020,2020,Apr,40.513333,-73.980555,"Whale, humpback",Moderate Decomposition,NJ,Monmouth
+5/22/2020,2020,May,40.7654,-72.7488,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+5/30/2020,2020,May,40.96814,-72.1249,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+7/9/2020,2020,Jul,44.378524,-68.099928,"Whale, humpback",Mummified/Skeletal Remains,ME,Hancock
+7/16/2020,2020,Jul,41.404131,-70.188958,"Whale, humpback",Moderate Decomposition,MA,EEZ
+7/17/2020,2020,Jul,41.0573,-71.805,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+7/18/2020,2020,Jul,40.7342,-72.8576,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+7/25/2020,2020,Jul,40.950239,-71.61673,"Whale, humpback",Moderate Decomposition,NY,EEZ
+7/27/2020,2020,Jul,41.2452,-70.127,"Whale, humpback",Advanced Decomposition,MA,Nantucket
+8/5/2020,2020,Aug,41.28362,-70.23483,"Whale, humpback",Advanced Decomposition,MA,Nantucket
+9/14/2020,2020,Sep,40.9093,-70.22325,"Whale, humpback",Unknown,MA ,EEZ
+9/16/2020,2020,Sep,39.316604,-74.457123,"Whale, humpback",Moderate Decomposition,NJ,Atlantic
+10/27/2020,2020,Oct,40.718,-72.9123,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+11/4/2020,2020,Nov,39.001394,-74.706667,"Whale, humpback",Moderate Decomposition,NJ,Cape May
+11/7/2020,2020,Nov,41.65578,-69.979175,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+11/8/2020,2020,Nov,40.8079,-71.7308,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+11/27/2020,2020,Dec,40.9194444,-70.6102777777777,"Whale, humpback",Advanced Decomposition,MA,Nantucket
+12/4/2020,2020,Dec,41.168854,-70.12716,"Whale, humpback",Unknown,MA,Dukes
+12/11/2020,2020,Dec,36.883333,-75.863333,"Whale, humpback",Moderate Decomposition,VA,Virginia Beach
+12/24/2020,2020,Dec,39.730746,-74.119083,"Whale, humpback",Moderate Decomposition,NJ,Ocean
+12/28/2020,2020,Dec,42.065615,-70.244772,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+1/6/2021,2021,Jan,35.7648,-75.5572,"Whale, humpback",Moderate Decomposition,NC,Dare
+2/18/2021,2021,Feb,38.243085,-75.132879,"Whale, humpback",Moderate Decomposition,MD,Worcester
+3/18/2021,2021,Mar,35.61345,-75.46645,"Whale, humpback",Advanced Decomposition,NC,Dare
+3/19/2021,2021,Mar,36.2849,-75.79441,"Whale, humpback",Moderate Decomposition,NC,Currituck
+4/11/2021,2021,Apr,41.333377,-70.640908,"Whale, humpback",Moderate Decomposition,MA,EEZ
+7/20/2021,2021,Jul,41.5275,-69.296,"Whale, humpback",Advanced Decomposition,MA,EEZ
+8/16/2021,2021,Aug,42.228855,-70.316827,"Whale, humpback",Advanced Decomposition,MA,EEZ
+9/17/2021,2021,Sep,40.541871,-74.125844,"Whale, humpback",Moderate Decomposition,NY,Richmond
+9/20/2021,2021,Sep,37.1875,-75.89497,"Whale, humpback",Mummified/Skeletal Remains,VA,Northampton
+11/22/2021,2021,Nov,42.03363,-70.169556,"Whale, humpback",Fresh Dead,MA,Barnstable
+1/8/2022,2022,Jan,41.485349,-71.190541,"Whale, humpback",Moderate Decomposition,RI,Newport
+3/2/2022,2022,Mar,36.60651,-74.8961,"Whale, humpback",Advanced Decomposition,VA,Virginia Beach
+3/16/2022,2022,Mar,34.047883,-77.825633,"Whale, humpback",Advanced Decomposition,NC,New Hanover
+5/1/2022,2022,May,42.1544167,-70.2214722,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+7/9/2022,2022,Jul,39.045933,-74.74333,"Whale, humpback",Moderate Decomposition,NJ,Cape May
+7/26/2022,2022,Jul,41.882988,-70.046529,"Whale, humpback",Fresh Dead,MA,Barnstable
+7/30/2022,2022,Jul,43.27667,-69.903889,"Whale, humpback",Unknown,ME,York
+9/2/2022,2022,Sep,40.98944,-71.0508,"Whale, humpback",Advanced Decomposition,RI,Washington
+10/13/2022,2022,Oct,41.176248,-71.539367,"Whale, humpback",Moderate Decomposition,RI,Washington
+10/31/2022,2022,Oct,43.82797,-69.566442,"Whale, humpback",Advanced Decomposition,ME,Lincoln
+11/12/2022,2022,Nov,40.72302,-72.89396,"Whale, humpback",Advanced Decomposition,NY,Suffolk
+12/3/2022,2022,Dec,40.981,-72.41743,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+12/5/2022,2022,Dec,35.291305,-75.513288,"Whale, humpback",Advanced Decomposition,NC,Dare
+12/10/2022,2022,Dec,39.18651,-74.665974,"Whale, humpback",Fresh Dead,NJ,Cape May
+12/21/2022,2022,Dec,36.416853,-74.783453,"Whale, humpback",Advanced Decomposition,NC,Currituck
+12/23/2022,2022,Dec,39.350358,-74.446686,"Whale, humpback",Moderate Decomposition,NJ,Atlantic
+12/28/2022,2022,Dec,34.893952,-76.261643,"Whale, humpback",Moderate Decomposition,NC,Carteret
+5/24/2022,2022,,39.120043,-74.729595,"Whale, humpback",Advanced Decomposition,NJ,Cape May
+5/25/2022,2022,,40.62263,-70.16249,"Whale, humpback",Advanced Decomposition,MA,Nantucket
+1/7/2023,2023,Jan,39.352564,-74.438584,"Whale, humpback",Moderate Decomposition,NJ,Atlantic
+1/12/2023,2023,Jan,36.9203588,-76.0648251,"Whale, humpback",Unknown,VA,Virginia Beach
+1/12/2023,2023,Jan,39.43341,-74.336033,"Whale, humpback",Unknown,NJ,Atlantic
+1/16/2023,2023,Jan,38.131602,-75.177917,"Whale, humpback",Moderate Decomposition,MD,Worcester
+1/18/2023,2023,Jan,39.3388889,-73.585,"Whale, humpback",Moderate Decomposition,NJ,Ocean
+1/28/2023,2023,Jan,39.6641667,-73.6863889,"Whale, humpback",Unknown,NJ,Atlantic
+1/30/2023,2023,Jan,40.585341,-73.622896,"Whale, humpback",Moderate Decomposition,NY,Nassau
+2/7/2023,2023,Feb,36.9405,-76.044667,"Whale, humpback",Moderate Decomposition,VA,Northumberland
+2/11/2023,2023,Feb,37.2426556,-76.0190306,"Whale, humpback",Moderate Decomposition,VA,Northampton
+2/13/2023,2023,Feb,40.103389,-74.033872,"Whale, humpback",Moderate Decomposition,NJ,Monmouth
+2/27/2023,2023,Feb,40.4936,-73.8885,"Whale, humpback",Moderate Decomposition,NY,Queens
+3/1/2023,2023,Mar,39.931917,-74.071392,"Whale, humpback",Moderate Decomposition,NJ,Ocean
+3/9/2023,2023,Mar,37.23713,-76.01584,"Whale, humpback",Moderate Decomposition,VA,Northampton
+3/10/2023,2023,Mar,37.86883,-75.26583,"Whale, humpback",Moderate Decomposition,VA,Accomack
+3/23/2023,2023,Mar,39.7636111,-71.24555,"Whale, humpback",Moderate Decomposition,NJ,EEZ
+4/3/2023,2023,Apr,37.64715,-76.00425,"Whale, humpback",Moderate Decomposition,VA,Accomack
+5/15/2023,2023,May,36.0941,-75.7066,"Whale, humpback",Advanced Decomposition,NC,Dare
+5/16/2023,2023,May,40.5352533,-67.2605238,"Whale, humpback",Advanced Decomposition,MA,EEZ
+5/19/2023,2023,May,40.6262,-73.2341,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+5/26/2023,2023,May,41.2666667,-71.68,"Whale, humpback",Moderate Decomposition,RI,Washington
+5/31/2023,2023,May,40.86304,-72.17364,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+5/31/2023,2023,May,40.500267,-74.128563,"Whale, humpback",Moderate Decomposition,NY,Richmond
+5/31/2023,2023,May,40.70022,-67.96268,"Whale, humpback",Advanced Decomposition,MA,Nantucket
+6/11/2023,2023,Jun,41.22,-70.41,"Whale, humpback",Advanced Decomposition,MA,Dukes
+6/12/2023,2023,Jun,41.351997,-70.534636,"Whale, humpback",Advanced Decomposition,MA,Dukes
+6/14/2023,2023,Jun,41.02,-69.943,"Whale, humpback",Unknown,MA,Nantucket
+6/26/2023,2023,Jun,40.58318,-73.70245,"Whale, humpback",Advanced Decomposition,NY,Nassau
+7/22/2023,2023,Jul,41.711131,-70.643919,"Whale, humpback",Moderate Decomposition,MA,Barnstable
+7/31/2023,2023,Jul,44.173367,-67.330733,"Whale, humpback",Advanced Decomposition,ME,Hancock
+8/11/2023,2023,Aug,40.7450275,-72.8234443,"Whale, humpback",Moderate Decomposition,NY,Suffolk
+8/12/2023,2023,Aug,40.2446,-73.9562,"Whale, humpback",Moderate Decomposition,NJ,Monmouth
+8/14/2023,2023,Aug,40.571167,-73.740333,"Whale, humpback",Moderate Decomposition,NY,Nassau
