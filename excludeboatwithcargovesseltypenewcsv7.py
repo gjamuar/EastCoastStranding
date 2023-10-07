@@ -149,7 +149,8 @@ def read_vessel_files(sdate, edate):
     return merged_df     
 def read_whale_data(whale_start_date, whale_end_date):
     #df_whales = load_from_file('merged_whales_minke.parquet')
-    df_whales = load_from_file('merged_whales.parquet')
+    # df_whales = load_from_file('merged_whales.parquet')
+    df_whales = pd.read_csv('2000_2015ume2016_2023_merged.csv')
     df_whales['Year_new'] = pd.to_datetime(df_whales['Obs_Date'], format='%m/%d/%Y').dt.strftime('%Y-%m-%d')
     # df_whales['Year_new'] = pd.to_datetime(df_whales['Year'], yearfirst=True, format='%Y%m%d').dt.strftime('%Y-%m-%d')
     df_whales_window: pd.DataFrame = df_whales.loc[df_whales["Year_new"].between(whale_start_date, whale_end_date)]
@@ -386,7 +387,7 @@ if __name__ == '__main__':
         }
 
         fig1 = px.scatter_mapbox(df_whales_window, lat="lat", lon="lon", hover_name="ComName",
-                                 hover_data=["State", "ComName", "County", 'Obs Date', 'ObsStatus', 'Carcass Condition'],
+                                 hover_data=["State", "ComName", "County", 'Obs_Date', 'Carcass Condition'],
                                  color="ComName", 
                                  color_discrete_map=color_map,
                                  labels={'ComName': 'Whales'},
