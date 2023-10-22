@@ -1,3 +1,7 @@
 /data/downloaded/*
 /data/csv/*
 /data/parquet/*
+.idea
+.ipynb_checkpoints
+*.log
+app.log_2022
