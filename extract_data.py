@@ -10,7 +10,7 @@ from dateutil.rrule import rrule, DAILY
 
 import database as db
 import utils
-from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH
+from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH, OVERWRITE_DOWNLOAD
 
 logging.basicConfig(filename='app.log',
                     filemode='w',
@@ -26,16 +26,30 @@ def extract_and_push(file):
                        (df['LON'] >= -87.0) & (df['LON'] <= -65.0)]
     qr = east_coast_df[(east_coast_df['Status'] == 3)]
     '''
+    
+    Bella Marie- sonar
+    Deep Helder- sonar
+    Marcelle Bordelon- sonar
+    Time and Tide- sonar
+    Shearwater- sonar & drill
+    Fugro Brasilis
+    
+    SELECT DISTINCT vessel_name, vessel_type, cargo 
+        FROM vessels 
+        WHERE LOWER(vessel_name) LIKE LOWER('%Deep Helder%');
+    
+    '''
+    '''
     select distinct(vessel_name),call_sign,vessel_type,cargo,length,width from vessels where cargo != 55 
     and cargo != 52 and ( cargo < 30 or cargo > 37) and cargo != 0 and (cargo >69 or cargo <60 ) 
     and cargo != 51 and ( vessel_type > 69 or vessel_type <60 ) and vessel_name not like '%CG %';
 
     '''
-    qr = qr.query(" VesselType >= 90 or Cargo >= 90 or VesselType == 70")
-    qr = qr.query(" VesselType > 69 or VesselType < 60 ")
-    qr = qr.query(
-        " (Cargo < 51 or Cargo > 55 ) and Cargo != 58 and (Cargo > 69 or Cargo <60 ) and ( Cargo < 30 or Cargo > 37) ")
-    qr = qr.query('not VesselName.str.contains("CG ")')
+    # qr = qr.query(" VesselType >= 90 or Cargo >= 90 or VesselType == 70")
+    # qr = qr.query(" VesselType > 69 or VesselType < 60 ")
+    # qr = qr.query(
+    #     " (Cargo < 51 or Cargo > 55 ) and Cargo != 58 and (Cargo > 69 or Cargo <60 ) and ( Cargo < 30 or Cargo > 37) ")
+    # qr = qr.query('not VesselName.str.contains("CG ")')
     qr.to_parquet(PARQUET_PATH + file.split('/')[-1].split('.')[0] + '.parquet')
 
     # db.push_data(qr)
@@ -96,7 +110,7 @@ def download_files(start_year, start_month, start_day, end_year, end_month, end_
     # iterating over the dates
     for d in rrule(DAILY, dtstart=start_date, until=end_date):
         logging.debug(d.strftime("%Y-%m-%d"))
-        if not file_exits(d, filetype='parquet'):
+        if OVERWRITE_DOWNLOAD or not file_exits(d, filetype='parquet'):
             date_list.append(d)
         # download_data(d)
 
@@ -110,7 +124,7 @@ def download_data(filedate):
     try:
         if not file_exits(filedate, filetype='csv'):
             filename = download_file(url)
-            file_list.append(filename)
+            # file_list.append(filename)
             logging.debug(f'extracting {filename}')
             with zipfile.ZipFile(filename) as zf:
                 zf.extractall(CSV_PATH)
@@ -136,6 +150,6 @@ def download_file(url):
 
 if __name__ == "__main__":
     # main()
-    # download_files(2022, 1, 1, 2023, 3, 28)
-    download_files(2014, 12, 1, 2014, 12, 31)
+    download_files(2023, 6, 29, 2023, 6, 30)
+    # download_files(2014, 12, 1, 2014, 12, 31)
     # process_files()
