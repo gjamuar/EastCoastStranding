@@ -1,15 +1,12 @@
-import glob
 import os
-import sqlite3
-from datetime import timedelta, date
 from datetime import datetime
 
 import pandas as pd
-import pygeohash as gh
 import plotly.express as px
 import argparse
 
 from main import load_from_file
+from vessels_include import filter_vessels_by_name, VESSELS_NAMES
 
 
 def map_vessels(vessels: pd.DataFrame, whales_df: pd.DataFrame):
@@ -125,6 +122,10 @@ if __name__ == '__main__':
     df_whales_window = read_whale_data(whale_start_date, whale_end_date)
 
     df_vessel_window = read_traffic_data(vessel_start_date, vessel_end_date)
+
+    df_vessel_window = filter_vessels_by_name(df_vessel_window, VESSELS_NAMES)
+
+    print(df_vessel_window.head(10))
 
     map_vessels(df_vessel_window, df_whales_window)
 
