@@ -11,6 +11,9 @@ import math
 from typing import List, Tuple
 from datetime import timedelta
 
+from vessels_include import filter_vessels_by_name, VESSELS_NAMES
+
+
 def load_from_file(filename):
     return pd.read_parquet(filename)
 def generate_grid(min_lon, max_lon, min_lat, max_lat, spacing):
@@ -145,6 +148,8 @@ def read_vessel_files(sdate, edate):
                 continue;
         else:
             print('File not found: {}'.format(filename))
+
+    merged_df = filter_vessels_by_name(merged_df, VESSELS_NAMES)
 
     return merged_df     
 def read_whale_data(whale_start_date, whale_end_date):

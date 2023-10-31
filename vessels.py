@@ -62,6 +62,7 @@ def read_vessel_files(sdate, edate):
         else:
             print('Not a file {}'.format(filename))
 
+    merged_df = filter_vessels_by_name(merged_df, VESSELS_NAMES)
     # Return the result!
     return merged_df
 
@@ -123,9 +124,9 @@ if __name__ == '__main__':
 
     df_vessel_window = read_traffic_data(vessel_start_date, vessel_end_date)
 
-    df_vessel_window = filter_vessels_by_name(df_vessel_window, VESSELS_NAMES)
+    # df_vessel_window = filter_vessels_by_name(df_vessel_window, VESSELS_NAMES)
 
-    print(df_vessel_window.head(10))
+    # print(df_vessel_window.head(10))
 
     map_vessels(df_vessel_window, df_whales_window)
 
