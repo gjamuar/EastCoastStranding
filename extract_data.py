@@ -10,7 +10,7 @@ from dateutil.rrule import rrule, DAILY
 
 import database as db
 import utils
-from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH, OVERWRITE_DOWNLOAD
+from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH, OVERWRITE_DOWNLOAD, ZIP_DOWNLOAD
 
 logging.basicConfig(filename='app.log',
                     filemode='w',
@@ -140,16 +140,17 @@ def download_data(filedate):
 
 def download_file(url):
     local_filename = DOWNLOAD_PATH + url.split('/')[-1]
-    with requests.get(url, stream=True) as r:
-        r.raise_for_status()
-        with open(local_filename, 'wb') as f:
-            for chunk in r.iter_content(chunk_size=8192 * 1000):
-                f.write(chunk)
+    if ZIP_DOWNLOAD:
+        with requests.get(url, stream=True) as r:
+            r.raise_for_status()
+            with open(local_filename, 'wb') as f:
+                for chunk in r.iter_content(chunk_size=8192 * 1000):
+                    f.write(chunk)
     return local_filename
 
 
 if __name__ == "__main__":
     # main()
-    download_files(2015, 1, 1, 2015, 12, 31)
+    download_files(2020, 1, 1, 2022, 12, 31)
     # download_files(2014, 12, 1, 2014, 12, 31)
     # process_files()
