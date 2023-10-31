@@ -1,6 +1,6 @@
 import pandas as pd
 
-VESSEL_NAME_FILTER = False
+VESSEL_NAME_FILTER = True
 
 VESSELS_NAMES = [
     'Bella Marie',
