@@ -31,3 +31,15 @@ options:
 
 $ python vessels.py -ws 2022-12-01 -we 2023-03-28 -vs 2022-12-01 -ve 2023-03-28
 ```
+
+### Inlcude boat with name
+
+File vessels_include.py which has included VESSELS_NAME list. 
+Add new vessel names here. 
+Also, I have a flag VESSEL_NAME_FILTER , If you want to turn off this filter, make it False.
+
+`vessels_include.py` : https://github.com/gjamuar/EastCoastStranding/blob/main/vessels_include.py
+
+This script has a function filter_vessels_by_name  which is used while reading the vessel files in read_vessel_files . Here is the change:
+https://github.com/gjamuar/EastCoastStranding/blob/9c666ca2d5a46e8d7b44856343d0a58f4b02c8b2/excludeboatwithcargovesseltypenewcsv7.py#L152
+https://github.com/gjamuar/EastCoastStranding/blob/9c666ca2d5a46e8d7b44856343d0a58f4b02c8b2/vessels.py#L65
