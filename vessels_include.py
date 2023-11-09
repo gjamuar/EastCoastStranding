@@ -20,7 +20,7 @@ def filter_vessels_by_name(df_vessels: pd.DataFrame, vessel_name_list=None):
     df_vessels_mod = df_vessels_mod.query('not VesselName.str.contains("CG ")')
 
     if not VESSEL_NAME_FILTER:
-        return df_vessels
+        return df_vessels_mod
 
     if vessel_name_list is None:
         vessel_name_list = []
