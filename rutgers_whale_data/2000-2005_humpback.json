@@ -1,0 +1,1773 @@
+{
+  "displayFieldName": "ComName",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "NatlDBNum": "NatlDBNum",
+    "ConfCode": "ConfCode",
+    "SpeciesID": "SpeciesID",
+    "ComName": "ComName",
+    "Genus": "Genus",
+    "Species": "Species",
+    "County": "County",
+    "State": "State",
+    "WaterBody": "WaterBody",
+    "LatAcc": "LatAcc",
+    "LongAcc": "LongAcc",
+    "ObsDate": "ObsDate",
+    "ObsStatus": "ObsStatus",
+    "SpeciesCategory": "SpeciesCategory"
+  },
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "NatlDBNum",
+      "type": "esriFieldTypeString",
+      "alias": "NatlDBNum",
+      "length": 8000
+    },
+    {
+      "name": "ConfCode",
+      "type": "esriFieldTypeString",
+      "alias": "ConfCode",
+      "length": 8000
+    },
+    {
+      "name": "SpeciesID",
+      "type": "esriFieldTypeInteger",
+      "alias": "SpeciesID"
+    },
+    {
+      "name": "ComName",
+      "type": "esriFieldTypeString",
+      "alias": "ComName",
+      "length": 8000
+    },
+    {
+      "name": "Genus",
+      "type": "esriFieldTypeString",
+      "alias": "Genus",
+      "length": 8000
+    },
+    {
+      "name": "Species",
+      "type": "esriFieldTypeString",
+      "alias": "Species",
+      "length": 8000
+    },
+    {
+      "name": "County",
+      "type": "esriFieldTypeString",
+      "alias": "County",
+      "length": 8000
+    },
+    {
+      "name": "State",
+      "type": "esriFieldTypeString",
+      "alias": "State",
+      "length": 8000
+    },
+    {
+      "name": "WaterBody",
+      "type": "esriFieldTypeString",
+      "alias": "WaterBody",
+      "length": 8000
+    },
+    {
+      "name": "LatAcc",
+      "type": "esriFieldTypeString",
+      "alias": "LatAcc",
+      "length": 8000
+    },
+    {
+      "name": "LongAcc",
+      "type": "esriFieldTypeString",
+      "alias": "LongAcc",
+      "length": 8000
+    },
+    {
+      "name": "ObsDate",
+      "type": "esriFieldTypeString",
+      "alias": "ObsDate",
+      "length": 8000
+    },
+    {
+      "name": "ObsStatus",
+      "type": "esriFieldTypeString",
+      "alias": "ObsStatus",
+      "length": 8000
+    },
+    {
+      "name": "SpeciesCategory",
+      "type": "esriFieldTypeString",
+      "alias": "SpeciesCategory",
+      "length": 50
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 24381,
+        "NatlDBNum": "NE-2000-1036870",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2000-AUG-18",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7525197.5776252896,
+        "y": 5101248.4381661154
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24360,
+        "NatlDBNum": "NE-2000-1038319",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Accomack",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2000-JUL-22",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8415753.503971478,
+        "y": 4509031.3930766601
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24742,
+        "NatlDBNum": "NE-2000-1038610",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2000-JUN-02",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7791455.2459832681,
+        "y": 5098544.4731238987
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25885,
+        "NatlDBNum": "NE-2000-1036866",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2000-JUN-17",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8333006.0161862122,
+        "y": 4685210.5539686559
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25810,
+        "NatlDBNum": "NE-2000-1038520",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Suffolk",
+        "State": "NY",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2000-MAR-20",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8079234.6833034102,
+        "y": 4989824.8515023282
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24769,
+        "NatlDBNum": "NE-2000-1038706",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2000-MAY-12",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7792846.739618184,
+        "y": 5135473.4885308873
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25342,
+        "NatlDBNum": "NE-2000-1037117",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Essex",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2000-NOV-01",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7861697.8446738226,
+        "y": 5262961.7068551956
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24412,
+        "NatlDBNum": "NE-2000-1033715",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": null,
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2000-OCT-07",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7828038.5420497628,
+        "y": 5121467.9523021039
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25933,
+        "NatlDBNum": "NE-2000-1033736",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Worcester",
+        "State": "MD",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2000-SEP-23",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8374787.9313595537,
+        "y": 4585266.4727638522
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25966,
+        "NatlDBNum": "NE-2001-1033107",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-APR-09",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8452711.5749148447,
+        "y": 4401747.1387705868
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24586,
+        "NatlDBNum": "NE-2001-1032916",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-AUG-01",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7720006.686513518,
+        "y": 5276523.3042879431
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25662,
+        "NatlDBNum": "NE-2001-1032466",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Newport",
+        "State": "RI",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-AUG-10",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7931235.4202937521,
+        "y": 5082509.968246839
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24046,
+        "NatlDBNum": "NE-2001-1036213",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Ocean",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-AUG-14",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8245156.384330783,
+        "y": 4859606.854199959
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23956,
+        "NatlDBNum": "NE-2001-1036441",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Worcester",
+        "State": "MD",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-AUG-18",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8350878.9782562423,
+        "y": 4601817.2112589059
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24165,
+        "NatlDBNum": "NE-2001-1032912",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2001-JAN-18",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8226510.3696229151,
+        "y": 4851421.1751833623
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24071,
+        "NatlDBNum": "NE-2001-1033287",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Nantucket",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2001-JUL-12",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7813292.4197982838,
+        "y": 5051508.0313182594
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24166,
+        "NatlDBNum": "NE-2001-1032910",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "NY",
+        "WaterBody": null,
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-JUL-29",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8240889.1375547722,
+        "y": 4951076.331030461
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25673,
+        "NatlDBNum": "NE-2001-1032470",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Newport",
+        "State": "RI",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-JUN-22",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7936690.0753426272,
+        "y": 5081717.6103676725
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24922,
+        "NatlDBNum": "NE-2001-1036370",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-MAY-27",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7805054.7774795806,
+        "y": 5125394.60138922
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24076,
+        "NatlDBNum": "NE-2001-1033267",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Plymouth",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-OCT-01",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7862866.699327155,
+        "y": 5165973.9237602511
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24100,
+        "NatlDBNum": "NE-2001-1033151",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Ocean",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-SEP-08",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8239126.5782084186,
+        "y": 4891526.8954865932
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24099,
+        "NatlDBNum": "NE-2001-1033152",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Cape May",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-SEP-17",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8328182.1708430396,
+        "y": 4719284.4962096894
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23375,
+        "NatlDBNum": "NE-2002-1035368",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Suffolk",
+        "State": "NY",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-APR-16",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8149174.2458497398,
+        "y": 4958244.9412873518
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23376,
+        "NatlDBNum": "NE-2002-1035367",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Nassau",
+        "State": "NY",
+        "WaterBody": null,
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-AUG-01",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8188816.3532807715,
+        "y": 4942692.451148117
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22891,
+        "NatlDBNum": "NE-2002-1082593",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Virginia Beach (City)",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": null,
+        "ObsDate": "2002-FEB-08",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8469836.1861420479,
+        "y": 4432371.9299260564
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22995,
+        "NatlDBNum": "NE-2002-1036131",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Cumberland",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-JUN-07",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7818936.3179814983,
+        "y": 5394471.0363140004
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25970,
+        "NatlDBNum": "NE-2002-1032676",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-MAR-24",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8455550.2219300754,
+        "y": 4411103.7183892597
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24673,
+        "NatlDBNum": "NE-2002-1035832",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-MAY-01",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7782716.6659559943,
+        "y": 5261624.2838860583
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24477,
+        "NatlDBNum": "NE-2002-1035833",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-MAY-16",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7530763.5521649541,
+        "y": 5426835.2654685359
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23338,
+        "NatlDBNum": "NE-2002-1035411",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-MAY-30",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7649504.3427155064,
+        "y": 4892619.6543754479
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23116,
+        "NatlDBNum": "NE-2002-1035831",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-NOV-20",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7825314.9248039518,
+        "y": 5168047.4030653536
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23115,
+        "NatlDBNum": "NE-2002-1035834",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-NOV-21",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8057985.0292705167,
+        "y": 4806941.1211957661
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23118,
+        "NatlDBNum": "NE-2002-1035829",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-OCT-01",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7819748.9502642928,
+        "y": 5170596.1514984751
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23117,
+        "NatlDBNum": "NE-2002-1035830",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-OCT-18",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7787670.3832962988,
+        "y": 5105765.0114037134
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23408,
+        "NatlDBNum": "NE-2002-1035308",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2002-OCT-30",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8459056.7858900633,
+        "y": 4423924.4636219535
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22196,
+        "NatlDBNum": "NE-2003-1034762",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": null,
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2003-APR-01",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7789870.7989353733,
+        "y": 5102841.4046779815
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22491,
+        "NatlDBNum": "NE-2003-1034431",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Washington",
+        "State": "ME",
+        "WaterBody": null,
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2003-AUG-09",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7522043.5257572103,
+        "y": 5538076.2281785617
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22506,
+        "NatlDBNum": "NE-2003-1034411",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Hancock",
+        "State": "ME",
+        "WaterBody": null,
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2003-AUG-15",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7552062.6810323326,
+        "y": 5496315.5940867234
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21966,
+        "NatlDBNum": "NE-2003-1052531",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2003-AUG-24",
+        "ObsStatus": "Mummified/Skeletal",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7321668.4790647533,
+        "y": 5293724.423322171
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21981,
+        "NatlDBNum": "NE-2003-1049835",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2003-JUL-03",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7456179.4933334598,
+        "y": 5081172.9013002347
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21982,
+        "NatlDBNum": "NE-2003-1049833",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2003-JUL-03",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7421855.9840432676,
+        "y": 5079935.0423102826
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21983,
+        "NatlDBNum": "NE-2003-1049831",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2003-JUL-03",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7454324.1681158394,
+        "y": 5067070.7181830527
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21980,
+        "NatlDBNum": "NE-2003-1049837",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2003-JUL-23",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7472135.2866427666,
+        "y": 5134054.3363797208
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21978,
+        "NatlDBNum": "NE-2003-1049843",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2003-JUL-28",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7530021.4218552662,
+        "y": 5079687.4890042078
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22403,
+        "NatlDBNum": "NE-2003-1034530",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2003-JUL-28",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7383636.2914621113,
+        "y": 5110184.3764152341
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22405,
+        "NatlDBNum": "NE-2003-1034528",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2003-JUL-28",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7443006.6872939887,
+        "y": 5097031.5782254329
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24469,
+        "NatlDBNum": "NE-2003-1034531",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2003-JUL-28",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7394749.6880351007,
+        "y": 5130121.6469319789
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21977,
+        "NatlDBNum": "NE-2003-1049847",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2003-JUL-29",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7432060.2699571857,
+        "y": 5155738.0547818001
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21975,
+        "NatlDBNum": "NE-2003-1049853",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2003-JUL-30",
+        "ObsStatus": "Condition Unknown",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7293281.9721770333,
+        "y": 5334831.3175768042
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21976,
+        "NatlDBNum": "NE-2003-1049849",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2003-JUL-30",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7407013.3845286965,
+        "y": 5149252.7038445678
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21974,
+        "NatlDBNum": "NE-2003-1049859",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2003-JUL-31",
+        "ObsStatus": "Condition Unknown",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7342355.3139973395,
+        "y": 5318773.0426960029
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21945,
+        "NatlDBNum": "NE-2003-1069753",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "None",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2003-JUN-06",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8468930.8247234225,
+        "y": 4438618.9436148629
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21963,
+        "NatlDBNum": "NE-2003-1052539",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2003-JUN-16",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7701824.5401237784,
+        "y": 5366163.5192001453
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21967,
+        "NatlDBNum": "NE-2003-1052529",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2003-JUN-17",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7442264.5569843007,
+        "y": 5112916.4125558436
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22359,
+        "NatlDBNum": "NE-2003-1034576",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Cape May",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2003-JUN-17",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8304520.5952517567,
+        "y": 4758507.832723395
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 22483,
+        "NatlDBNum": "NE-2003-1034440",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Lincoln",
+        "State": "ME",
+        "WaterBody": "Muscongus Bay",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2003-SEP-30",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7733365.0254087113,
+        "y": 5436857.4990676316
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21893,
+        "NatlDBNum": "NE-2004-1027906",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Suffolk",
+        "State": "NY",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2004-APR-20",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8079341.5500145731,
+        "y": 4984676.1333096372
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20756,
+        "NatlDBNum": "NE-2004-1041771",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2004-AUG-10",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7449871.3884841064,
+        "y": 5052495.3941191658
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20575,
+        "NatlDBNum": "NE-2004-1042315",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2004-DEC-11",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7717427.7846057406,
+        "y": 5155014.4707032777
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20294,
+        "NatlDBNum": "NE-2004-1043495",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2004-DEC-15",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7664179.9618806895,
+        "y": 5135747.3837424871
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20245,
+        "NatlDBNum": "NE-2004-1055985",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Sussex",
+        "State": "DE",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2004-DEC-19",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8358791.3205325576,
+        "y": 4691992.4116737358
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21078,
+        "NatlDBNum": "NE-2004-1040212",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Newport",
+        "State": "RI",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2004-JUL-06",
+        "ObsStatus": "Condition Unknown",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7938508.2933211802,
+        "y": 5079885.5302489819
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20301,
+        "NatlDBNum": "NE-2004-1043475",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2004-JUL-12",
+        "ObsStatus": "Condition Unknown",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7792364.3555291435,
+        "y": 5160979.4440497896
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21088,
+        "NatlDBNum": "NE-2004-1040200",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Dukes",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2004-MAY-12",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7851241.2342097079,
+        "y": 5063879.5585645838
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 21255,
+        "NatlDBNum": "NE-2004-1033839",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Dukes",
+        "State": "RI",
+        "WaterBody": "Vineyard Sound",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2004-MAY-20",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7892551.8972430937,
+        "y": 5071521.811425616
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20298,
+        "NatlDBNum": "NE-2004-1043481",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2004-OCT-03",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7488091.0810652617,
+        "y": 5056692.8087633559
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19481,
+        "NatlDBNum": "NE-2005-1046727",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Accomack",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2005-JUL-01",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8409077.674108604,
+        "y": 4546241.7500771116
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19526,
+        "NatlDBNum": "NE-2005-1046503",
+        "ConfCode": "Confirmed - Minimum",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2005-JUL-12",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7638372.4303716132,
+        "y": 5054223.4709341871
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19475,
+        "NatlDBNum": "NE-2005-1046899",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2005-JUL-21",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7653214.9920375524,
+        "y": 5401186.7998311399
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19581,
+        "NatlDBNum": "NE-2005-1045895",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Worcester",
+        "State": "MD",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2005-JUN-14",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -8345811.4679060625,
+        "y": 4623311.4516223781
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 18982,
+        "NatlDBNum": "NE-2005-1050141",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2005-OCT-01",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7447273.9340699986,
+        "y": 5111177.8218231667
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19025,
+        "NatlDBNum": "NE-2005-1049529",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 7,
+        "ComName": "Whale, humpback",
+        "Genus": "Megaptera",
+        "Species": "novaeangliae",
+        "County": "Washington",
+        "State": "ME",
+        "WaterBody": "Pleasant Bay",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2005-SEP-03",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Humpback Whale"
+      },
+      "geometry": {
+        "x": -7540147.7852388257,
+        "y": 5538310.2110415511
+      }
+    }
+  ]
+}

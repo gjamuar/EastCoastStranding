@@ -10,7 +10,7 @@ from dateutil.rrule import rrule, DAILY
 
 import database as db
 import utils
-from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH, OVERWRITE_DOWNLOAD, ZIP_DOWNLOAD
+from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH, OVERWRITE_DOWNLOAD, ZIP_DOWNLOAD, SKIP_DOWNLOAD
 
 logging.basicConfig(filename='app.log',
                     filemode='w',
@@ -22,10 +22,16 @@ logging.basicConfig(filename='app.log',
 def extract_and_push(file):
     logging.debug(f"processing file {file}")
     df = pd.read_csv(file, skip_blank_lines=True, on_bad_lines='skip', low_memory=False)
-    east_coast_df = df[(df['LAT'] >= 36.5) & (df['LAT'] <= 46.0) &
-                       (df['LON'] >= -87.0) & (df['LON'] <= -65.0)]
+    # east_coast_df = df[(df['LAT'] >= 36.5) & (df['LAT'] <= 46.0) &
+    #                    (df['LON'] >= -87.0) & (df['LON'] <= -65.0)]
+    east_coast_df = df[(df['LAT'] >= 24.0) & (df['LAT'] <= 56.0) &
+                       (df['LON'] >= -99.0) & (df['LON'] <= -48.0)]
     qr = east_coast_df[(east_coast_df['Status'] == 3)]
     '''
+    56,-97,
+    56,-48
+    25,-97
+    25,-48
     
     Bella Marie- sonar
     Deep Helder- sonar
@@ -80,12 +86,17 @@ def process_files(date_list):
 
 
 def file_exits(filedate, filetype='parquet'):
-    filename = filedate.strftime("AIS_%Y_%m_%d")
+    if filetype != 'zip':
+        filename = filedate.strftime("AIS_%Y_%m_%d")
+    else:
+        filename = filedate
 
     if filetype == 'csv':
         filepath = CSV_PATH + filename + '.csv'
     elif filetype == 'parquet':
         filepath = PARQUET_PATH + filename + '.parquet'
+    elif filetype == 'zip':
+        filepath = filename
     else:
         return False
     if os.path.isfile(filepath):
@@ -140,6 +151,9 @@ def download_data(filedate):
 
 def download_file(url):
     local_filename = DOWNLOAD_PATH + url.split('/')[-1]
+    if SKIP_DOWNLOAD and file_exits(local_filename, filetype='zip'):
+        logging.info(f"Skipping downloading file {local_filename} from URL {url}")
+        return local_filename
     if ZIP_DOWNLOAD:
         with requests.get(url, stream=True) as r:
             r.raise_for_status()
@@ -151,6 +165,6 @@ def download_file(url):
 
 if __name__ == "__main__":
     # main()
-    download_files(2020, 1, 1, 2022, 12, 31)
-    # download_files(2014, 12, 1, 2014, 12, 31)
+    # download_files(2023, 10, 1, 2023, 12, 31)
+    download_files(2015, 1, 1, 2019, 12, 31)
     # process_files()

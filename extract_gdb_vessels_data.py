@@ -3,6 +3,7 @@ import multiprocessing
 import os
 import zipfile
 from datetime import date
+from pathlib import Path
 
 import pandas as pd
 import requests
@@ -10,7 +11,9 @@ from dateutil.rrule import rrule, DAILY
 
 import database as db
 import utils
-from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH
+from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH, GDB_FILE_PATH, GDB_EXTRACTED_FILE_PATH, \
+    GDB_PARQUET_FILE_PATH
+from gdb_to_csv import parse_gdb_to_csv
 
 logging.basicConfig(filename='app.log',
                     filemode='w',
@@ -43,7 +46,8 @@ def extract_and_push(file):
 
 
 def process_gdb_csv(zone):
-    df_brd_cast = pd.read_csv(f"geometry/{zone}_Broadcast.csv", skip_blank_lines=True, on_bad_lines='skip',
+    print(f'Processing {zone}')
+    df_brd_cast = pd.read_csv(f"{GDB_EXTRACTED_FILE_PATH}{zone}/{zone}_Broadcast.csv", skip_blank_lines=True, on_bad_lines='skip',
                               low_memory=False)
     print(df_brd_cast.shape)
     print(df_brd_cast.head().to_string())
@@ -52,14 +56,17 @@ def process_gdb_csv(zone):
     print(df_brd_cast.head().to_string())
     print(df_brd_cast.shape)
 
-    df_vessel = pd.read_csv(f"csvgdb/{zone}_Vessel.csv", skip_blank_lines=True, on_bad_lines='skip',
+    df_vessel = pd.read_csv(f"{GDB_EXTRACTED_FILE_PATH}{zone}/{zone}_Vessel.csv", skip_blank_lines=True, on_bad_lines='skip',
                             low_memory=False)
 
     print(df_vessel.head().to_string())
 
-    df_voyage = pd.read_csv(f"csvgdb/{zone}_Voyage.csv", skip_blank_lines=True, on_bad_lines='skip',
+    df_vessel = df_vessel.drop('geometry', axis=1)
+
+    df_voyage = pd.read_csv(f"{GDB_EXTRACTED_FILE_PATH}{zone}/{zone}_Voyage.csv", skip_blank_lines=True, on_bad_lines='skip',
                             low_memory=False)
     print(df_voyage.head().to_string())
+    df_voyage = df_voyage.drop('geometry', axis=1)
 
     left_merged = pd.merge(
         df_brd_cast, df_vessel, how="inner", on=["MMSI"]
@@ -77,6 +84,11 @@ def process_gdb_csv(zone):
     print(final_merged.shape)
     print(final_merged.columns)
     print(final_merged.head(50).to_string())
+    if final_merged.shape[0] <= 0:
+        logging.info(f'Skipping {zone}')
+        print(f'Skipping {zone}')
+        return
+
     final_merged['geometry'] = final_merged['geometry'].str.replace('POINT (', '')
     final_merged['geometry'] = final_merged['geometry'].str.replace(')', '')
     final_merged[['LON', 'LAT']] = final_merged['geometry'].str.split(' ', expand=True)
@@ -89,8 +101,27 @@ def process_gdb_csv(zone):
     final_merged[['SOG', 'COG', 'Heading', 'BaseDateTime', 'Status',
                   'MMSI', 'geometry', 'IMO', 'CallSign',
                   'Name', 'VesselType', 'Length', 'Width',
-                  'Cargo', 'LON', 'LAT']].to_parquet("Zone10_2014_01")
+                  'Cargo', 'LON', 'LAT']].to_parquet(f'{GDB_PARQUET_FILE_PATH}{zone}.parquet')
 
 
-if __name__ == "__main__":
-    process_gdb_csv('Zone10_2014_01')
+def list_directories(directory):
+    # Get a list of all items in the directory
+    items = os.listdir(directory)
+
+    # Filter out directories from the list of items
+    directories = [item for item in items if os.path.isdir(os.path.join(directory, item))]
+
+    return directories
+
+
+if __name__ == '__main__':
+    # parse_gdb_to_csv('Zone10_2014_01')
+    # process_gdb_csv('Zone10_2014_01')
+    gdb_files = list_directories(GDB_EXTRACTED_FILE_PATH)
+    print("Directories in", GDB_EXTRACTED_FILE_PATH, ":", gdb_files)
+    # gdb_files = ['Zone9_2014_08.gdb']
+    # directory_path = Path(GDB_PARQUET_FILE_PATH)
+    # directory_path.mkdir(parents=True, exist_ok=True)
+    for gdb_file in gdb_files:
+        process_gdb_csv(zone=gdb_file)
+

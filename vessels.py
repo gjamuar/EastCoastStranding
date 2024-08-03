@@ -18,14 +18,18 @@ def map_vessels(vessels: pd.DataFrame, whales_df: pd.DataFrame):
                             # color_discrete_sequence=["fuchsia"],
                             zoom=4, height=1000, mapbox_style="open-street-map")
 
+    # fig1 = px.scatter_mapbox(whales_df, lat="lat", lon="lon", hover_name="ComName",
+    #                          hover_data=["State", "ComName", "County", 'Year_new',
+    #                                      "NatlDBNum", 'Field Number', 'Species', 'Genus'],
+    #                          # animation_frame="Year",
+    #                          color_discrete_sequence=["black"]
+    #                          , zoom=4,
+    #                          height=1000, mapbox_style="open-street-map"
+    #                          )
     fig1 = px.scatter_mapbox(whales_df, lat="lat", lon="lon", hover_name="ComName",
-                             hover_data=["State", "ComName", "County", 'Year_new',
-                                         "NatlDBNum", 'Field Number', 'Species', 'Genus'],
-                             # animation_frame="Year",
-                             color_discrete_sequence=["black"]
-                             , zoom=4,
-                             height=1000, mapbox_style="open-street-map"
-                             )
+                             hover_data=["State", "ComName", "County", 'Year_new', 'Carcass Condition'],
+                             color_discrete_sequence=["black"],
+                             zoom=4, height=1000, mapbox_style="open-street-map")
 
     fig.add_trace(fig1.data[0])
     # fig.update_layout(mapbox_style="open-street-map")
@@ -85,9 +89,11 @@ def parse_arg():
 
 
 def read_whale_data(whale_start_date, whale_end_date):
-    df_whales = load_from_file('merged_whales.parquet')
-    df_whales['Year_new'] = pd.to_datetime(df_whales['Year'], yearfirst=True, format='%Y%m%d').dt.strftime(
-        '%Y-%m-%d')
+    df_whales = pd.read_csv('2000_2015ume2016_2023_merged.csv')
+    # df_whales = load_from_file('merged_whales.parquet')
+    df_whales['Year_new'] = pd.to_datetime(df_whales['Obs_Date'], format='%m/%d/%Y').dt.strftime('%Y-%m-%d')
+    # df_whales['Year_new'] = pd.to_datetime(df_whales['Year'], yearfirst=True, format='%Y%m%d').dt.strftime(
+    #     '%Y-%m-%d')
     # df_whales.sort_values(by=['Year_new'], ascending=True, na_position='first', inplace=True)
 
     df_whales_window: pd.DataFrame = df_whales.loc[df_whales["Year_new"].between(whale_start_date, whale_end_date)]

@@ -112,7 +112,7 @@ def merge_minke_whales():
     print(df_2['County'].values)
 
     merged_df = pd.concat([df, df_2[['Carcass Condition', 'ComName', 'Country', 'County', 'Field Number',
-                                               'Month', 'Sex', 'State', 'Year', 'lat', 'lon']]], ignore_index=True)
+                                     'Month', 'Sex', 'State', 'Year', 'lat', 'lon']]], ignore_index=True)
     merged_df.to_parquet('merged_whales_minke.parquet')
     merged_df.to_csv('merged_whales_minke.csv')
 
@@ -135,16 +135,75 @@ def merge_right_whales():
     print(df_2.head())
 
     merged_df = pd.concat([df, df_2[['Carcass Condition', 'ComName', 'Country', 'Field Number',
-                                               'Month', 'Sex', 'State', 'Year', 'lat', 'lon']]], ignore_index=True)
+                                     'Month', 'Sex', 'State', 'Year', 'lat', 'lon']]], ignore_index=True)
     print(merged_df.tail(50).to_string())
     merged_df.to_parquet('merged_whales_minke_right.parquet')
     merged_df.to_csv('merged_whales_minke_right.csv')
 
 
+def merge_rutgers_and_ume_whale_data(rutgers_whales_parquet,
+                                     ume_csv,
+                                     merged_file):
+    df = load_from_file(rutgers_whales_parquet)
+    df['Obs_Date'] = pd.to_datetime(df['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime('%m/%d/%Y')
+    df['Month'] = pd.to_datetime(df['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime('%b')
+    df.rename(columns={'ObsStatus': 'Carcass Condition'}, inplace=True)
+    # df['County'] = df['County'].str.split("(").str[0].str.strip().str.lower()
+    # print(df['County'].values)
+    df_selected_col = df[["Obs_Date", "Year", "Month", "lat", "lon", "ComName", "Carcass Condition", "State", "County"]]
+    print(df_selected_col.head())
+
+    df_2 = pd.read_csv(ume_csv)
+    print(df.head(50).to_string())
+    print(df_2.head())
+
+    print(df.columns.sort_values())
+    print(df_2.columns.sort_values())
+
+    df_2.rename(columns={'Common Name': 'ComName', 'Latitude': 'lat', 'Longitude': 'lon',
+                         'Date': 'Obs_Date', 'State/Province': 'State', }, inplace=True)
+
+    # After renaming the columns
+    print("\nAfter modifying column:\n", df_2.columns.sort_values())
+    df_2['Year'] = pd.to_datetime(df_2['Obs_Date'], yearfirst=True, format='%m/%d/%Y').dt.strftime('%Y')
+    # df_2['Date'] = pd.to_datetime(df_2['ObsDay'], yearfirst=True, format='%m/%d/%Y').dt.strftime('%Y-%b-%d')
+    # df_2['County'] = df_2['County'].str.strip().str.lower()
+    # print(df_2['County'].values)
+    print(df_2.head())
+
+    df_2_selected_col = df_2[
+        ["Obs_Date", "Year", "Month", "lat", "lon", "ComName", "Carcass Condition", "State"]]
+    print(df_2_selected_col.head())
+
+    merged_df = pd.concat([df_selected_col, df_2_selected_col], ignore_index=True)
+    merged_df['Obs_Date'] = pd.to_datetime(merged_df['Obs_Date'], format='%m/%d/%Y')
+
+    merged_df.sort_values(by=['Obs_Date'], ascending=True) #, na_position='first', inplace=True)
+
+    # merged_df.to_parquet('%s.parquet' % merged_file, date_format='%m/%d/%Y', index=False)
+    merged_df.to_csv('%s.csv' % merged_file, date_format='%m/%d/%Y', index=False)
+
+
 if __name__ == '__main__':
-    merge_right_whales()
+    # merge_right_whales()
     # merge_minke_whales()
     # merge_whale_data()
+    # humpback_whales
+    # merge_rutgers_and_ume_whale_data(rutgers_whales_parquet='sorted_rutgers_whales.parquet',
+    #                                  ume_csv='Humpback UME Stranding Locations_12102023.csv',
+    #                                  merged_file='merged_humpback_whales_rutgers_ume')
+
+    # minke_whales
+    # merge_rutgers_and_ume_whale_data(rutgers_whales_parquet='sorted_rutgers_minke_whales.parquet',
+    #                                  ume_csv='rutgers_whale_data/minke/Minke Whale Unusual Mortality Event '
+    #                                          '2017-2023.csv',
+    #                                  merged_file='merged_minke_whales_rutgers_ume')
+
+    # minke_whales
+    merge_rutgers_and_ume_whale_data(rutgers_whales_parquet='sorted_rutgers_right_whales.parquet',
+                                     ume_csv='rutgers_whale_data/right/Right Whale UME Stranding Locations '
+                                             '2017-2023.csv',
+                                     merged_file='merged_right_whales_rutgers_ume')
 
 # Result dataframe :
 #  ['VAQS20161004' 'SYMn1610' 'NEAQ-16-023-Mn' 'NY5460-2016' 'NY5481-2016'

@@ -10,7 +10,7 @@ from dateutil.rrule import rrule, DAILY, MONTHLY
 
 import database as db
 import utils
-from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH
+from constants import DOWNLOAD_PATH, CSV_PATH, PARQUET_PATH, GDB_FILE_PATH
 
 logging.basicConfig(filename='app.log',
                     filemode='w',
@@ -65,16 +65,18 @@ def process_files(date_list):
         pool.join()
 
 
-def file_exits(filedate, filetype='parquet'):
-    filename = filedate.strftime("AIS_%Y_%m_%d")
+def file_exits(filename, filetype='parquet'):
+    # filename = filedate.strftime("AIS_%Y_%m_%d")
 
     if filetype == 'csv':
         filepath = CSV_PATH + filename + '.csv'
     elif filetype == 'parquet':
         filepath = PARQUET_PATH + filename + '.parquet'
+    elif filetype == 'gdb':
+        filepath = GDB_FILE_PATH + filename + '.gdb'
     else:
         return False
-    if os.path.isfile(filepath):
+    if os.path.isfile(filepath) or os.path.isdir(filepath):
         logging.debug(f'skipping file, {filename}.{filetype} exits ')
         return True
     return False
@@ -109,6 +111,7 @@ def download_files(start_year, start_month, start_day, end_year, end_month, end_
 def download_data(filedate):
     # url = filedate.strftime('https://coast.noaa.gov/htdata/CMSP/AISDataHandler/%Y/AIS_%Y_%m_%d.zip')
     date_arr = filedate.split('-')
+    # "https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2014/01/Zone10_2014_01.zip"
     url = f'https://coast.noaa.gov/htdata/CMSP/AISDataHandler/{date_arr[1]}/{date_arr[2]}/Zone{date_arr[0]}_{date_arr[1]}_{date_arr[2]}.zip'
     logging.debug(f'downloading {url}')
     file_list = []
@@ -118,29 +121,74 @@ def download_data(filedate):
         file_list.append(filename)
         logging.debug(f'extracting {filename}')
         with zipfile.ZipFile(filename) as zf:
-            zf.extractall(CSV_PATH)
+            zf.extractall(GDB_FILE_PATH)
 
-        csv_filename = filedate.strftime("AIS_%Y_%m_%d")
-        csv_file = CSV_PATH + csv_filename + '.csv'
-        extract_and_push(csv_file)
-        file_list.append(csv_file)
-        clear_files(file_list)
+        # csv_filename = filedate.strftime("AIS_%Y_%m_%d")
+        # csv_file = CSV_PATH + csv_filename + '.csv'
+        # extract_and_push(csv_file)
+        # file_list.append(csv_file)
+        # clear_files(file_list)
     except:
         logging.exception(f'error for {filedate}')
 
 
+def download_gdb_data(year, str_month,zone):
+
+    # url = "https://coast.noaa.gov/htdata/CMSP/AISDataHandler/2014/01/Zone10_2014_01.zip"
+    url = f'https://coast.noaa.gov/htdata/CMSP/AISDataHandler/{year}/{str_month}/Zone{zone}_{year}_{str_month}.zip'
+    logging.debug(f'downloading {url}')
+    file_list = []
+    try:
+        if not file_exits(url.split('/')[-1].split('.')[0], filetype='gdb'):
+            filename = download_file(url)
+            file_list.append(filename)
+            logging.debug(f'extracting {filename}')
+            with zipfile.ZipFile(filename) as zf:
+                zf.extractall(GDB_FILE_PATH)
+
+        # csv_filename = filedate.strftime("AIS_%Y_%m_%d")
+        # csv_file = CSV_PATH + csv_filename + '.csv'
+        # extract_and_push(csv_file)
+        # file_list.append(csv_file)
+        # clear_files(file_list)
+    except:
+        logging.exception(f'error for {url}')
+
+
 def download_file(url):
     local_filename = DOWNLOAD_PATH + url.split('/')[-1]
-    # with requests.get(url, stream=True) as r:
-    #     r.raise_for_status()
-    #     with open(local_filename, 'wb') as f:
-    #         for chunk in r.iter_content(chunk_size=8192 * 1000):
-    #             f.write(chunk)
+    with requests.get(url, stream=True) as r:
+        r.raise_for_status()
+        with open(local_filename, 'wb') as f:
+            for chunk in r.iter_content(chunk_size=8192 * 1000):
+                f.write(chunk)
     return local_filename
 
+
+def download_gdb_files(year):
+
+    str_months = month_range_str()
+    zones = [num for num in range(1, 21) if num not in (12, 13)]
+    for str_month in str_months:
+        for zone in zones:
+            download_gdb_data(year, str_month, zone)
+
+
+def month_range_str():
+    # Define a list of month numbers
+    months = range(1, 13)
+    months_str = []
+    # Iterate through the months and print their representations
+    for month in months:
+        # Format the month number with leading zeros
+        month_str = f"{month:02d}"
+        months_str.append(month_str)
+        # print(month_str)
+    return months_str
 
 if __name__ == "__main__":
     # main()
     # download_files(2022, 1, 1, 2023, 3, 28)
-    download_files(2014, 1, 1, 2014, 12, 31)
+    # download_files(2014, 1, 1, 2014, 12, 31)
+    download_gdb_files(2014)
     # process_files()

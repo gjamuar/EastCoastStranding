@@ -1,0 +1,416 @@
+{
+  "displayFieldName": "ComName",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "NatlDBNum": "NatlDBNum",
+    "ConfCode": "ConfCode",
+    "SpeciesID": "SpeciesID",
+    "ComName": "ComName",
+    "Genus": "Genus",
+    "Species": "Species",
+    "County": "County",
+    "State": "State",
+    "WaterBody": "WaterBody",
+    "LatAcc": "LatAcc",
+    "LongAcc": "LongAcc",
+    "ObsDate": "ObsDate",
+    "ObsStatus": "ObsStatus",
+    "SpeciesCategory": "SpeciesCategory"
+  },
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "NatlDBNum",
+      "type": "esriFieldTypeString",
+      "alias": "NatlDBNum",
+      "length": 8000
+    },
+    {
+      "name": "ConfCode",
+      "type": "esriFieldTypeString",
+      "alias": "ConfCode",
+      "length": 8000
+    },
+    {
+      "name": "SpeciesID",
+      "type": "esriFieldTypeInteger",
+      "alias": "SpeciesID"
+    },
+    {
+      "name": "ComName",
+      "type": "esriFieldTypeString",
+      "alias": "ComName",
+      "length": 8000
+    },
+    {
+      "name": "Genus",
+      "type": "esriFieldTypeString",
+      "alias": "Genus",
+      "length": 8000
+    },
+    {
+      "name": "Species",
+      "type": "esriFieldTypeString",
+      "alias": "Species",
+      "length": 8000
+    },
+    {
+      "name": "County",
+      "type": "esriFieldTypeString",
+      "alias": "County",
+      "length": 8000
+    },
+    {
+      "name": "State",
+      "type": "esriFieldTypeString",
+      "alias": "State",
+      "length": 8000
+    },
+    {
+      "name": "WaterBody",
+      "type": "esriFieldTypeString",
+      "alias": "WaterBody",
+      "length": 8000
+    },
+    {
+      "name": "LatAcc",
+      "type": "esriFieldTypeString",
+      "alias": "LatAcc",
+      "length": 8000
+    },
+    {
+      "name": "LongAcc",
+      "type": "esriFieldTypeString",
+      "alias": "LongAcc",
+      "length": 8000
+    },
+    {
+      "name": "ObsDate",
+      "type": "esriFieldTypeString",
+      "alias": "ObsDate",
+      "length": 8000
+    },
+    {
+      "name": "ObsStatus",
+      "type": "esriFieldTypeString",
+      "alias": "ObsStatus",
+      "length": 8000
+    },
+    {
+      "name": "SpeciesCategory",
+      "type": "esriFieldTypeString",
+      "alias": "SpeciesCategory",
+      "length": 50
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 19586,
+        "NatlDBNum": "NE-2005-1045779",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Suffolk",
+        "State": "NY",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2005-JUL-02",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -8043178.3002354708,
+        "y": 5000710.8881887151
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19768,
+        "NatlDBNum": "NE-2005-1044435",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Nantucket Sound",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2005-APR-28",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -7791395.8759592455,
+        "y": 5097884.7225234173
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 19893,
+        "NatlDBNum": "NE-2005-1043829",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2005-JAN-09",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -7637630.263326495,
+        "y": 5001035.005405576
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20060,
+        "NatlDBNum": "NE-2005-1042731",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Northampton",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2005-MAR-03",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -8438673.0739309061,
+        "y": 4473464.295740325
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20295,
+        "NatlDBNum": "NE-2004-1043493",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2004-DEC-09",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -7705164.0881121438,
+        "y": 4919369.2220094856
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20883,
+        "NatlDBNum": "NE-2004-1040965",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "None",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2004-FEB-07",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -8442529.5150504522,
+        "y": 4409616.2608018164
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 20884,
+        "NatlDBNum": "NE-2004-1040963",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "None",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2004-FEB-07",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -8442525.8415072616,
+        "y": 4409611.6737786112
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23340,
+        "NatlDBNum": "NE-2002-1035409",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Nantucket",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-OCT-12",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -7790993.2700964799,
+        "y": 5048302.2672511823
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23344,
+        "NatlDBNum": "NE-2002-1035401",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": null,
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-JUN-10",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -7616479.5600757729,
+        "y": 5234160.8354464732
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23355,
+        "NatlDBNum": "NE-2002-1035388",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Unknown",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2002-SEP-25",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -8438017.4021301307,
+        "y": 4383497.6409447854
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 24066,
+        "NatlDBNum": "NE-2001-1033313",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Nassau",
+        "State": "NY",
+        "WaterBody": null,
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2001-JUN-18",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -8190393.3797714012,
+        "y": 4946761.4013622254
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25712,
+        "NatlDBNum": "NE-2000-1036880",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Unknown",
+        "State": "EZ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2000-JAN-19",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -7959343.5917190537,
+        "y": 5019719.4521033056
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 25878,
+        "NatlDBNum": "NE-2002-1035313",
+        "ConfCode": "Unconfirmed",
+        "SpeciesID": 2,
+        "ComName": "Whale, right, North Atlantic",
+        "Genus": "Eubalaena",
+        "Species": "glacialis",
+        "County": "Worcester",
+        "State": "MD",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2002-AUG-22",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "North Atlantic Right Whale"
+      },
+      "geometry": {
+        "x": -8304229.927816147,
+        "y": 4633744.0572316842
+      }
+    }
+  ]
+}

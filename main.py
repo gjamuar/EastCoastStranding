@@ -28,8 +28,8 @@ def map_cities():
     fig.show()
 
 
-def parse_json_to_dataframe():
-    input_file = open('humpback.json')
+def parse_json_to_dataframe(whale_data_file='humpback.json'):
+    input_file = open(whale_data_file)
     json_array = json.load(input_file)
     whale_list = []
 
@@ -170,7 +170,7 @@ def parse_boat_json_to_dataframe():
 
     boat_df = pd.DataFrame(boat_list)
     print(boat_df)
-    boat_df['geometry'] = boat_df.apply(geo_frames, axis=1 )
+    boat_df['geometry'] = boat_df.apply(geo_frames, axis=1)
     print(boat_df.head())
     return boat_df
 
@@ -217,33 +217,156 @@ def map_boats(boats: pd.DataFrame):
     fig.show()
 
 
+def parse_rutgers_whale_json_to_dataframe(whale_data_file):
+    input_file = open(whale_data_file)
+    json_data = json.load(input_file)
+    whale_list = []
+
+    if 'features' in json_data and len(json_data['features']) > 0:
+        for item_feature in json_data['features']:
+            whale_details = item_feature['attributes']
+            if 'ObsDate' in whale_details:
+                obs_date = whale_details['ObsDate']
+            else:  # crawl for data
+                print('cannot find ObsDate, crawling to find it ..')
+                whale_with_date = find_whale_data_with_date(item_feature['geometry']['x'],
+                                                            item_feature['geometry']['y'])
+                obs_date = whale_with_date['features'][0]['attributes']['ObsDate'] if whale_with_date['features'] and \
+                                                                                      whale_with_date['features'][0] and \
+                                                                                      whale_with_date['features'][0][
+                                                                                          'attributes'] and \
+                                                                                      whale_with_date['features'][0][
+                                                                                          'attributes'][
+                                                                                          'ObsDate'] else None
+            print(obs_date)
+
+            whale_details['x'] = item_feature['geometry']['x']
+            whale_details['y'] = item_feature['geometry']['y']
+            whale_details['spatialReference'] = json_data['spatialReference']['wkid']
+            whale_details['Date'] = obs_date
+            # {
+            #     "OBJECTID": 5056,
+            #     "NatlDBNum": "NE-2017-1198957",
+            #     "ConfCode": "Confirmed - High Report",
+            #     "SpeciesID": 7,
+            #     "ComName": "Whale, humpback",
+            #     "Genus": "Megaptera",
+            #     "Species": "novaeangliae",
+            #     "County": "Barnstable",
+            #     "State": "MA",
+            #     "WaterBody": "ATLANTIC",
+            #     "LatAcc": "actual",
+            #     "LongAcc": "actual",
+            #     "ObsDay": 18,
+            #     "ObsStatus": "Alive",
+            #     "SpeciesCategory": "Humpback Whale"
+            # }
+
+            # whale_details = {
+            #     'NatlDBNum': item_feature['attributes']['NatlDBNum'],
+            #     'x': item_feature['geometry']['x'], 'y': item_feature['geometry']['y'],
+            #     'Genus': item_feature['attributes']['Genus'],
+            #     'Species': item_feature['attributes']['Species'],
+            #     'County': item_feature['attributes']['County'],
+            #     'State': item_feature['attributes']['State'],
+            #     'SpeciesCategory': item_feature['attributes']['SpeciesCategory'],
+            #     'spatialReference': item['spatialReference']['wkid'],
+            #     'obsDate': item_feature['attributes']['ObsDay'],
+            #     'Date': obs_date}
+            lat, long = convert_point_to_latlon(item_feature['geometry']['x'], item_feature['geometry']['y'],
+                                                whale_details['spatialReference'])
+            # print(f'lat: {lat} , longitude:{long}')
+
+            # if '2017' in item_feature['attributes']['NatlDBNum']:
+            #     print(item_feature['attributes']['NatlDBNum'])
+            #     print(item_feature['attributes']['ObsDay'])
+            #     print(f'lat: {lat} , longitude:{long}')
+
+            whale_details['lat'] = lat
+            whale_details['lon'] = long
+            whale_list.append(whale_details)
+    print(whale_list)
+    return pd.DataFrame(whale_list)
+
+
+def process_rutgers_humpback_whale_data():
+    df1 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/2000-2005_humpback.json")
+    df2 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/2006-2010_humpback.json")
+    df3 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/2011-2015_humpback.json")
+    combined_df = pd.concat([df1, df2, df3], axis=0, ignore_index=True)
+    combined_df['Year'] = pd.to_datetime(combined_df['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime(
+        '%Y')
+    combined_df.sort_values(by=['Year'], ascending=True, na_position='first', inplace=True)
+    combined_df.to_parquet('sorted_rutgers_whales.parquet')
+
+
+def process_rutgers_minke_whale_data():
+    df1 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/minke/2000-2005_minke.json")
+    df2 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/minke/2006-2010_minke.json")
+    df3 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/minke/2011-2015_minke.json")
+    df4 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/minke/2016-2020_minke.json")
+    combined_df = pd.concat([df1, df2, df3, df4], axis=0, ignore_index=True)
+    combined_df['Year'] = pd.to_datetime(combined_df['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime(
+        '%Y')
+    combined_df.sort_values(by=['Year'], ascending=True, na_position='first', inplace=True)
+    filter_year = list(range(2000, 2017))
+    print(filter_year)
+    filter_year_str = [str(x) for x in filter_year]
+    print(filter_year_str)
+    combined_df_filtered = combined_df[combined_df['Year'].isin(filter_year_str)]
+    combined_df_filtered.to_parquet('sorted_rutgers_minke_whales.parquet')
+
+
+def process_rutgers_right_whale_data():
+    df1 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/right/2000-2005_right.json")
+    df2 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/right/2006-2010_right.json")
+    df3 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/right/2011-2015_right.json")
+    df4 = parse_rutgers_whale_json_to_dataframe(whale_data_file="rutgers_whale_data/right/2016-2020_right.json")
+    combined_df = pd.concat([df1, df2, df3, df4], axis=0, ignore_index=True)
+    combined_df['Year'] = pd.to_datetime(combined_df['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime(
+        '%Y')
+    combined_df.sort_values(by=['Year'], ascending=True, na_position='first', inplace=True)
+    filter_year = list(range(2000, 2017))
+    print(filter_year)
+    filter_year_str = [str(x) for x in filter_year]
+    print(filter_year_str)
+    combined_df_filtered = combined_df[combined_df['Year'].isin(filter_year_str)]
+    combined_df_filtered.to_parquet('sorted_rutgers_right_whales.parquet')
+
+
+# if __name__ == '__main__':
+#     print_hi('PyCharm')
+#     # fig = px.bar(x=["a", "b", "c"], y=[1, 3, 2])
+#     # fig.write_html('first_figure.html', auto_open=True)
+#     # df = parse_json_to_dataframe()
+#     # df.to_csv('complete_whale_list.csv', sep='\t')
+#     # df.to_parquet('whales.parquet')
+#     df = load_from_file('whales.parquet')
+#     df['Year'] = pd.to_datetime(df['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime(
+#         '%Y')  # dt.strftime('%Y%m%d')
+#     # df['Year'] = df['Year'].apply(pd.to_datetime(yearfirst=True))
+#     # df['Year'] = df['Year'].apply(np.int64)
+#     df.sort_values(by=['Year'], ascending=True, na_position='first', inplace=True)
+#     # print(df.dtypes)
+#     # pd.to_datetime(df.Date).dt.strftime('%m%Y')
+#
+#     print(df.head(n=50))
+#     # df.to_csv('sorted_whale_list.csv', sep='\t')
+#     # df.to_parquet('sorted_whales.parquet')
+#     # map_cities()
+#     map_whales(df)
+#     # x = -7790538.7158801369
+#     # y = 5101226.1087373206
+#     # whale_with_date = find_whale_data_with_date(x, y)
+#     # print(whale_with_date)
+#     # print(whale_with_date['features'][0]['attributes']['ObsDate'])
+#
+#     bdf = parse_boat_json_to_dataframe()
+#     display_polygon_on_map(bdf['parsed_coord'].values.tolist())
+#     # map_boats(bdf)
+
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
-    # fig = px.bar(x=["a", "b", "c"], y=[1, 3, 2])
-    # fig.write_html('first_figure.html', auto_open=True)
-    # df = parse_json_to_dataframe()
-    # df.to_csv('complete_whale_list.csv', sep='\t')
-    # df.to_parquet('whales.parquet')
-    df = load_from_file('whales.parquet')
-    df['Year'] = pd.to_datetime(df['Date'], yearfirst=True, format='%Y-%b-%d').dt.strftime(
-        '%Y')  # dt.strftime('%Y%m%d')
-    # df['Year'] = df['Year'].apply(pd.to_datetime(yearfirst=True))
-    # df['Year'] = df['Year'].apply(np.int64)
-    df.sort_values(by=['Year'], ascending=True, na_position='first', inplace=True)
-    # print(df.dtypes)
-    # pd.to_datetime(df.Date).dt.strftime('%m%Y')
-
-    print(df.head(n=50))
-    # df.to_csv('sorted_whale_list.csv', sep='\t')
-    # df.to_parquet('sorted_whales.parquet')
-    # map_cities()
-    map_whales(df)
-    # x = -7790538.7158801369
-    # y = 5101226.1087373206
-    # whale_with_date = find_whale_data_with_date(x, y)
-    # print(whale_with_date)
-    # print(whale_with_date['features'][0]['attributes']['ObsDate'])
-
-    bdf = parse_boat_json_to_dataframe()
-    display_polygon_on_map(bdf['parsed_coord'].values.tolist())
-    # map_boats(bdf)
+    # process_rutgers_humpback_whale_data()
+    # process_rutgers_minke_whale_data()
+    process_rutgers_right_whale_data()

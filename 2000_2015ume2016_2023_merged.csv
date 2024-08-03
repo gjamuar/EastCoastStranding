@@ -355,8 +355,8 @@ Obs_Date,Year,Month,lat,lon,ComName,Carcass Condition,State,County
 12/21/2022,2022,Dec,36.416853,-74.783453,"Whale, humpback",Advanced Decomposition,NC,Currituck
 12/23/2022,2022,Dec,39.350358,-74.446686,"Whale, humpback",Moderate Decomposition,NJ,Atlantic
 12/28/2022,2022,Dec,34.893952,-76.261643,"Whale, humpback",Moderate Decomposition,NC,Carteret
-5/24/2022,2022,,39.120043,-74.729595,"Whale, humpback",Advanced Decomposition,NJ,Cape May
-5/25/2022,2022,,40.62263,-70.16249,"Whale, humpback",Advanced Decomposition,MA,Nantucket
+5/24/2022,2022,May,39.120043,-74.729595,"Whale, humpback",Advanced Decomposition,NJ,Cape May
+5/25/2022,2022,May,40.62263,-70.16249,"Whale, humpback",Advanced Decomposition,MA,Nantucket
 1/7/2023,2023,Jan,39.352564,-74.438584,"Whale, humpback",Moderate Decomposition,NJ,Atlantic
 1/12/2023,2023,Jan,36.9203588,-76.0648251,"Whale, humpback",Unknown,VA,Virginia Beach
 1/12/2023,2023,Jan,39.43341,-74.336033,"Whale, humpback",Unknown,NJ,Atlantic
@@ -389,3 +389,8 @@ Obs_Date,Year,Month,lat,lon,ComName,Carcass Condition,State,County
 8/11/2023,2023,Aug,40.7450275,-72.8234443,"Whale, humpback",Moderate Decomposition,NY,Suffolk
 8/12/2023,2023,Aug,40.2446,-73.9562,"Whale, humpback",Moderate Decomposition,NJ,Monmouth
 8/14/2023,2023,Aug,40.571167,-73.740333,"Whale, humpback",Moderate Decomposition,NY,Nassau
+8/25/2023,2023,Aug,40.5946584,-73.7464155,"Whale, humpback",Moderate Decomposition,NY,Queens
+9/13/2023,2023,Sep,41.148126,-71.587524,"Whale, humpback",Advanced Decomposition,RI,Washington
+10/30/2023,2023,Oct,40.4166667,-72.33333333,"Whale, humpback",Moderate Decomposition,NY,EEZ
+11/7/2023,2023,Nov,35.349046,-75.491579,"Whale, humpback",Moderate Decomposition,NC,Dare
+11/7/2023,2023,Nov,40.2901,-73.2578,"Whale, humpback",Unknown,NY,EEZ

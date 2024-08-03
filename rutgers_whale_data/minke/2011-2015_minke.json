@@ -1,0 +1,1520 @@
+{
+  "displayFieldName": "ComName",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "NatlDBNum": "NatlDBNum",
+    "ConfCode": "ConfCode",
+    "SpeciesID": "SpeciesID",
+    "ComName": "ComName",
+    "Genus": "Genus",
+    "Species": "Species",
+    "County": "County",
+    "State": "State",
+    "WaterBody": "WaterBody",
+    "LatAcc": "LatAcc",
+    "LongAcc": "LongAcc",
+    "ObsDate": "ObsDate",
+    "ObsStatus": "ObsStatus",
+    "SpeciesCategory": "SpeciesCategory"
+  },
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "NatlDBNum",
+      "type": "esriFieldTypeString",
+      "alias": "NatlDBNum",
+      "length": 8000
+    },
+    {
+      "name": "ConfCode",
+      "type": "esriFieldTypeString",
+      "alias": "ConfCode",
+      "length": 8000
+    },
+    {
+      "name": "SpeciesID",
+      "type": "esriFieldTypeInteger",
+      "alias": "SpeciesID"
+    },
+    {
+      "name": "ComName",
+      "type": "esriFieldTypeString",
+      "alias": "ComName",
+      "length": 8000
+    },
+    {
+      "name": "Genus",
+      "type": "esriFieldTypeString",
+      "alias": "Genus",
+      "length": 8000
+    },
+    {
+      "name": "Species",
+      "type": "esriFieldTypeString",
+      "alias": "Species",
+      "length": 8000
+    },
+    {
+      "name": "County",
+      "type": "esriFieldTypeString",
+      "alias": "County",
+      "length": 8000
+    },
+    {
+      "name": "State",
+      "type": "esriFieldTypeString",
+      "alias": "State",
+      "length": 8000
+    },
+    {
+      "name": "WaterBody",
+      "type": "esriFieldTypeString",
+      "alias": "WaterBody",
+      "length": 8000
+    },
+    {
+      "name": "LatAcc",
+      "type": "esriFieldTypeString",
+      "alias": "LatAcc",
+      "length": 8000
+    },
+    {
+      "name": "LongAcc",
+      "type": "esriFieldTypeString",
+      "alias": "LongAcc",
+      "length": 8000
+    },
+    {
+      "name": "ObsDate",
+      "type": "esriFieldTypeString",
+      "alias": "ObsDate",
+      "length": 8000
+    },
+    {
+      "name": "ObsStatus",
+      "type": "esriFieldTypeString",
+      "alias": "ObsStatus",
+      "length": 8000
+    },
+    {
+      "name": "SpeciesCategory",
+      "type": "esriFieldTypeString",
+      "alias": "SpeciesCategory",
+      "length": 50
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 6517,
+        "NatlDBNum": "NE-2015-1195608",
+        "ConfCode": "Confirmed - Minimum",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Knox",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2015-SEP-06",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7710909.9916843623,
+        "y": 5444941.972063465
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 6518,
+        "NatlDBNum": "NE-2015-1195607",
+        "ConfCode": "Confirmed - Minimum",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "York",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2015-JUL-10",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7860197.6664804649,
+        "y": 5310095.8922088416
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 6519,
+        "NatlDBNum": "NE-2015-1195605",
+        "ConfCode": "Confirmed - Minimum",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "York",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2015-JUN-06",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7860944.731583178,
+        "y": 5316172.2695845328
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 6538,
+        "NatlDBNum": "NE-2015-1190736",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Washington",
+        "State": "RI",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2015-OCT-02",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7966819.5860817488,
+        "y": 5045543.7914111549
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 6704,
+        "NatlDBNum": "NE-2015-1180801",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Monmouth",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2015-SEP-28",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8238612.1341060288,
+        "y": 4893582.791279898
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 6731,
+        "NatlDBNum": "NE-2015-1180719",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "ATLANTIC",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2015-OCT-31",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7818424.2483238503,
+        "y": 5120620.1671398366
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 6970,
+        "NatlDBNum": "NE-2015-1176388",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "ATLANTIC",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2015-MAY-05",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7804553.83977101,
+        "y": 5125678.1582858805
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7047,
+        "NatlDBNum": "NE-2015-1176119",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Washington",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2015-AUG-20",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7521708.6021448467,
+        "y": 5536249.1847946513
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7078,
+        "NatlDBNum": "NE-2015-1175835",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Mathews",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2015-JUN-05",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8491426.2674229294,
+        "y": 4483114.9477124475
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7174,
+        "NatlDBNum": "NE-2015-1174214",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Queens",
+        "State": "NY",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2015-JUN-06",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8234224.8103348874,
+        "y": 4949561.8189822426
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7178,
+        "NatlDBNum": "NE-2015-1174206",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Suffolk",
+        "State": "NY",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2015-JUL-09",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8155254.7635661373,
+        "y": 4956848.2805349734
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7251,
+        "NatlDBNum": "NE-2015-1173622",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Cape May",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2015-JUN-21",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8337767.0762233809,
+        "y": 4734783.7815898256
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7534,
+        "NatlDBNum": "NE-2014-1170846",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "ATLANTIC",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2014-DEC-25",
+        "ObsStatus": "Mummified/Skeletal",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7809418.5015186761,
+        "y": 5170241.2843539706
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7598,
+        "NatlDBNum": "NE-2014-1170782",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "ATLANTIC",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2014-AUG-17",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7803762.3581914688,
+        "y": 5166838.235051794
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7689,
+        "NatlDBNum": "NE-2014-1170439",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Virginia Beach (City)",
+        "State": "VA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2014-DEC-24",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8456178.0638581458,
+        "y": 4411827.5750373974
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7782,
+        "NatlDBNum": "NE-2014-1169835",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Washington",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2014-SEP-23",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7458636.2031757757,
+        "y": 5588076.1896183053
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7801,
+        "NatlDBNum": "NE-2014-1168852",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Cumberland",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2014-OCT-31",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8354620.5131710079,
+        "y": 4752713.7153405668
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 7957,
+        "NatlDBNum": "NE-2014-1158868",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "ATLANTIC",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2014-AUG-09",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7828710.1692731483,
+        "y": 5118919.8495530123
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 8022,
+        "NatlDBNum": "NE-2014-1158636",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Washington",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2014-JUL-17",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7538510.7208072208,
+        "y": 5542836.4668376576
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 8100,
+        "NatlDBNum": "NE-2014-1158000",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "ATLANTIC",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2014-JUN-09",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7806000.9931513201,
+        "y": 5175715.6996653229
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 8199,
+        "NatlDBNum": "NE-2014-1157068",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Atlantic",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2014-MAY-01",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8284901.004767688,
+        "y": 4772839.0542532047
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 8797,
+        "NatlDBNum": "NE-2013-1154657",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Suffolk",
+        "State": "NY",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2013-AUG-08",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8124909.0703758905,
+        "y": 4966620.938285091
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 8915,
+        "NatlDBNum": "NE-2013-1152676",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Lincoln",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2013-JUL-27",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7720099.0816908777,
+        "y": 5437576.4349966208
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 9276,
+        "NatlDBNum": "NE-2013-1151020",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Eez",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2013-JUN-10",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7581781.2747955127,
+        "y": 5493588.3451632401
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 9386,
+        "NatlDBNum": "NE-2013-1150664",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Cumberland",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2013-JUN-30",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7814862.9151743911,
+        "y": 5399510.94862857
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 9506,
+        "NatlDBNum": "NE-2013-1150213",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "York",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2013-JUL-09",
+        "ObsStatus": "Mummified/Skeletal",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7864478.7914573923,
+        "y": 5328076.4631477557
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 9982,
+        "NatlDBNum": "NE-2013-1148251",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Hancock",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2013-MAY-07",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7592236.6240097946,
+        "y": 5504341.5767546715
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10217,
+        "NatlDBNum": "NE-2012-1156672",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "ATLANTIC",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2012-AUG-05",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7791503.8558653137,
+        "y": 5110831.0653550122
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10302,
+        "NatlDBNum": "NE-2012-1156587",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "ATLANTIC",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2012-APR-13",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7795514.6971185924,
+        "y": 5168741.9938239101
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10832,
+        "NatlDBNum": "NE-2012-1146063",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Cumberland",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2012-OCT-04",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7805310.8123084037,
+        "y": 5417101.00164402
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10837,
+        "NatlDBNum": "NE-2012-1146057",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Sagadahoc",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2012-JUL-22",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7768952.0855034683,
+        "y": 5425576.7803976508
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10838,
+        "NatlDBNum": "NE-2012-1146056",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Cumberland",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2012-AUG-16",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7797226.5682480121,
+        "y": 5433870.1960963486
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10880,
+        "NatlDBNum": "NE-2012-1145513",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Eez",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2012-APR-13",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7795514.6971185924,
+        "y": 5168741.9938239101
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10960,
+        "NatlDBNum": "NE-2012-1144896",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Somerset",
+        "State": "MD",
+        "WaterBody": null,
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2012-APR-12",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8420050.2136771139,
+        "y": 4576484.0739143835
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10963,
+        "NatlDBNum": "NE-2012-1144812",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Washington",
+        "State": "RI",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2012-JUN-21",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7961660.8182394104,
+        "y": 5066519.3706686776
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10981,
+        "NatlDBNum": "NE-2012-1144765",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Cumberland",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2012-JUN-03",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7831140.71903513,
+        "y": 5394280.5139428191
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 10994,
+        "NatlDBNum": "NE-2012-1144752",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Cumberland",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2012-MAY-16",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7815529.4962852625,
+        "y": 5397362.2587494906
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11015,
+        "NatlDBNum": "NE-2012-1144627",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Washington",
+        "State": "RI",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2012-JUN-25",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7959287.2640567161,
+        "y": 5066111.776452872
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11050,
+        "NatlDBNum": "NE-2012-1144190",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Essex County",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": null,
+        "ObsDate": "2012-JUN-23",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8253310.7596703749,
+        "y": 4965446.6764917076
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11279,
+        "NatlDBNum": "NE-2012-1141743",
+        "ConfCode": "Confirmed - High",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Essex",
+        "State": "MA",
+        "WaterBody": null,
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2012-MAR-16",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7876933.7726847949,
+        "y": 5264314.4623066438
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11336,
+        "NatlDBNum": "NE-2012-1139496",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Worcester",
+        "State": "MD",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2012-FEB-23",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8367600.1431585224,
+        "y": 4630016.2012861157
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11361,
+        "NatlDBNum": "NE-2011-1143699",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Knox",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2011-NOV-09",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7715130.8928167699,
+        "y": 5452189.4749871017
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11365,
+        "NatlDBNum": "NE-2011-1143595",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Eez",
+        "State": "NH",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2011-OCT-06",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7674120.7924085325,
+        "y": 5463198.5490534492
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11374,
+        "NatlDBNum": "NE-2011-1143064",
+        "ConfCode": "Confirmed - Medium",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Plymouth",
+        "State": "MA",
+        "WaterBody": null,
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2011-NOV-02",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7852031.6025943384,
+        "y": 5151232.7624810217
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11375,
+        "NatlDBNum": "NE-2011-1142590",
+        "ConfCode": "Confirmed - Minimum",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Eez",
+        "State": "MD",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2011-MAR-01",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8302875.5403070981,
+        "y": 4596108.692512162
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11376,
+        "NatlDBNum": "NE-2011-1142589",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2011-JUN-19",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7775287.945641459,
+        "y": 5092067.9753085561
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11388,
+        "NatlDBNum": "NE-2011-1140173",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": null,
+        "LongAcc": null,
+        "ObsDate": "2011-JUL-15",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7808127.195425475,
+        "y": 5174920.5890973788
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11458,
+        "NatlDBNum": "NE-2011-1138093",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "Actual",
+        "LongAcc": "Actual",
+        "ObsDate": "2011-SEP-26",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7799965.2503605103,
+        "y": 5150587.8265799209
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11464,
+        "NatlDBNum": "NE-2011-1138087",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Barnstable",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "Estimate",
+        "LongAcc": "Estimate",
+        "ObsDate": "2011-OCT-06",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7816698.7962165577,
+        "y": 5173120.5842335094
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11576,
+        "NatlDBNum": "NE-2011-1136918",
+        "ConfCode": "Confirmed - Medium",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Essex",
+        "State": "MA",
+        "WaterBody": null,
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2011-OCT-03",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7881396.9050291711,
+        "y": 5240235.4602315146
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11630,
+        "NatlDBNum": "NE-2011-1136603",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Monmouth",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2011-AUG-26",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8237927.6305571431,
+        "y": 4931887.3071140023
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11648,
+        "NatlDBNum": "NE-2011-1136520",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Monmouth",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2011-AUG-04",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8246916.5681192111,
+        "y": 4929571.2109845104
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11689,
+        "NatlDBNum": "NE-2011-1136262",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Hancock",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2011-SEP-26",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7573343.7026713425,
+        "y": 5516925.3050644975
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 11723,
+        "NatlDBNum": "NE-2011-1135841",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Monmouth",
+        "State": "NJ",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2011-MAY-23",
+        "ObsStatus": "Advanced Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8240775.1831316333,
+        "y": 4885038.492976266
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12039,
+        "NatlDBNum": "NE-2011-1135101",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Suffolk",
+        "State": "NY",
+        "WaterBody": null,
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2011-AUG-29",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8098914.8560807565,
+        "y": 4980491.0934621925
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12063,
+        "NatlDBNum": "NE-2011-1134919",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Washington",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2011-AUG-11",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7515726.1813901262,
+        "y": 5543342.2978225714
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12067,
+        "NatlDBNum": "NE-2011-1134915",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Eez",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2011-JUL-12",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7584564.2620653426,
+        "y": 5460290.376939049
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12069,
+        "NatlDBNum": "NE-2011-1134913",
+        "ConfCode": "Confirmed - Medium Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Eez",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2011-JUL-07",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7532742.5900722733,
+        "y": 5496790.021141557
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12138,
+        "NatlDBNum": "NE-2011-1134710",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Floater",
+        "State": "MA",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2011-MAY-06",
+        "ObsStatus": "Moderate Decomposition",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7888844.958199678,
+        "y": 5066581.223260276
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12231,
+        "NatlDBNum": "NE-2011-1134203",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "York",
+        "State": "ME",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "estimate",
+        "LongAcc": "estimate",
+        "ObsDate": "2011-MAY-25",
+        "ObsStatus": "Fresh Dead",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -7832007.2299514664,
+        "y": 5383357.7581632426
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 12581,
+        "NatlDBNum": "NE-2011-1131590",
+        "ConfCode": "Confirmed - High Report",
+        "SpeciesID": 62,
+        "ComName": "Whale, minke",
+        "Genus": "Balaenoptera",
+        "Species": "acutorostrata",
+        "County": "Sussex",
+        "State": "DE",
+        "WaterBody": "Atlantic Ocean",
+        "LatAcc": "actual",
+        "LongAcc": "actual",
+        "ObsDate": "2011-MAY-26",
+        "ObsStatus": "Alive",
+        "SpeciesCategory": "Other Whale"
+      },
+      "geometry": {
+        "x": -8354527.784035176,
+        "y": 4645353.0216944264
+      }
+    }
+  ]
+}
